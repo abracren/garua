@@ -1,0 +1,59 @@
+.comments-area{
+.comments-title{
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+.comment-body{
+	background-color: #fdfdfd;
+	padding: 10px;
+	border-radius: 10px;
+}
+.comment-list{
+margin-left: -5%;
+}
+ol{
+	list-style: none;
+}
+.children{
+	margin-left: 5%;
+	border-left: 1px solid #ddd;
+}
+.comment-body{
+	position: relative;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.comment-reply-link{
+	position: absolute;
+	top:15px;
+	right: 15px;
+	padding: 5px;
+
+	border:1px solid $secondary-link-color;
+	font-size: 13px;
+	
+		color:$secondary-link-color;
+		background-color: #ddd;
+		border-radius: 4px;
+	
+}
+.comment-metadata{
+	font-size: .7em;
+	a{
+			color:$secondary-link-color;
+}
+
+}
+
+}
+
+.form-allowed-tags{
+	font-size:.8em;
+a{
+	font-size:.8em;
+}
+code{
+	font-size:.9em;	
+}
+}

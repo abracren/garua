@@ -45,8 +45,10 @@ and Blueprint http://www.blueprintcss.org/
 	12.2 Galleries
 --------------------------------------------------------------*/
 $link-color: #ff0000;
+$secondary-link-color: #000033;
 $body-font-color:#aaa;
-$background-color: #fefefe;
+$background-color: #fafafa;
+$content-background-color:#fafafa;
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import "variables-site/variables-site";

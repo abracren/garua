@@ -784,7 +784,7 @@ object {
 14.4 Body
 --------------------------------------------------------------*/
 body {
-  background-color: #fefefe;
+  background-color: #fafafa;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: #aaa; }
@@ -817,3 +817,46 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block; }
     #secondary li a {
       color: #ff0000; }
+
+/*--------------------------------------------------------------
+14.6 Sidebar
+--------------------------------------------------------------*/
+.comments-area .comments-title {
+  font-size: 20px;
+  margin-bottom: 20px; }
+.comments-area .comment-body {
+  background-color: #fdfdfd;
+  padding: 10px;
+  border-radius: 10px; }
+.comments-area .comment-list {
+  margin-left: -5%; }
+.comments-area ol {
+  list-style: none; }
+.comments-area .children {
+  margin-left: 5%;
+  border-left: 1px solid #ddd; }
+.comments-area .comment-body {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 30px; }
+.comments-area .comment-reply-link {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px;
+  border: 1px solid #000033;
+  font-size: 13px;
+  color: #000033;
+  background-color: #ddd;
+  border-radius: 4px; }
+.comments-area .comment-metadata {
+  font-size: .7em; }
+  .comments-area .comment-metadata a {
+    color: #000033; }
+
+.form-allowed-tags {
+  font-size: .8em; }
+  .form-allowed-tags a {
+    font-size: .8em; }
+  .form-allowed-tags code {
+    font-size: .9em; }
