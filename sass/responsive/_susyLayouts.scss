@@ -1,0 +1,54 @@
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: 100%,
+  container-position: center,
+  columns: 12,
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to
+
+);
+
+$gridSizeMine: 1100px;
+
+
+$susy:(gutters: 0);
+#content {
+    @include container($gridSizeMine center fluid);
+    #primary {
+        @include span(9 of 12);
+    }
+    #secondary {
+        @include span(3 of 12 last);
+    }
+}
+
+
+$susy:(gutters: .25);
+.header-container {
+    @include container($gridSizeMine center fluid);
+    .site-branding {
+        @include span(3 of 12);
+    }
+    nav {
+        clear: none;
+        @include span(9 of 12 last);
+        @include container( 100% center fluid rtl );
+    }
+}
+
+
+
+.footer-container {
+    @include container($gridSizeMine center fluid);
+}
+
+
+$susy:(gutters: 0.05);
+.arkGameGrid li{
+  @include gallery(2 of 10);
+}
