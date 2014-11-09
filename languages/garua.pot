@@ -167,6 +167,10 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
+#: functions.php:120
+msgid "Read More"
+msgstr "" 
+
 #: header.php:23
 msgid "Skip to content"
 msgstr ""
