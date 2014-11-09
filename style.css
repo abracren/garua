@@ -44,6 +44,7 @@ and Blueprint http://www.blueprintcss.org/
 	12.2 Galleries
 --------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
@@ -770,6 +771,25 @@ object {
   padding: 14px;
   min-height: 800px; }
 
+.hentry .entry-title {
+  margin-top: 30px; }
+
+.separator {
+  border-bottom: 1px solid #ddd;
+  clear: both; }
+
+.post-navigation .nav-previous, .post-navigation .nav-next {
+  min-height: 60px;
+  padding: 0;
+  padding: 60px 0; }
+  .post-navigation .nav-previous a, .post-navigation .nav-next a {
+    font-size: 18px; }
+    .post-navigation .nav-previous a span.meta-nav i, .post-navigation .nav-next a span.meta-nav i {
+      position: relative;
+      top: 9px;
+      font-size: 50px;
+      margin: 0 15px; }
+
 /*--------------------------------------------------------------
 14.3 Footer
 --------------------------------------------------------------*/
@@ -814,7 +834,7 @@ h1, h2, h3, h4, h5, h6 {
   #secondary ul, #secondary ol {
     margin: 0 0 60px 0; }
   #secondary li {
-    display: inline-block;
+    display: block;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
     padding-bottom: 5px; }
@@ -827,6 +847,10 @@ h1, h2, h3, h4, h5, h6 {
 .comments-area .comments-title {
   font-size: 20px;
   margin-bottom: 20px; }
+.comments-area .comment-author a {
+  font-weight: 500; }
+.comments-area .comment-author b {
+  font-weight: 500; }
 .comments-area .comment-body {
   background-color: #fdfdfd;
   padding: 10px;
@@ -847,11 +871,11 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   right: 15px;
   padding: 5px;
-  border: 1px solid #000033;
+  border: 1px solid #aaa;
   font-size: 13px;
-  color: #000033;
+  color: #aaa;
   background-color: #ddd;
-  border-radius: 4px; }
+  border-radius: 2px; }
 .comments-area .comment-metadata {
   font-size: .7em; }
   .comments-area .comment-metadata a {

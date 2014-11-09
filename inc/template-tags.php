@@ -22,11 +22,11 @@ function garua_paging_nav() {
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'garua' ) ); ?></div>
+			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav"></span> Older posts', 'garua' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'garua' ) ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav"></span>', 'garua' ) ); ?></div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
@@ -52,8 +52,8 @@ function garua_post_nav() {
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'garua' ); ?></h1>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'garua' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav">&rarr;</span>', 'Next post link',     'garua' ) );
+				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav"><i class="fa fa-angle-left"></i></span>&nbsp;%title', 'Previous post link', 'garua' ) );
+				next_post_link(     '<div class="nav-next">%link</div>',     _x( '%title&nbsp;<span class="meta-nav"><i class="fa fa-angle-right"></i></span>', 'Next post link',     'garua' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -101,10 +101,10 @@ function garua_entry_footer() {
 	// Hide category and tag text for pages.
 	if ( 'post' == get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
-		$categories_list = get_the_category_list( __( ', ', 'garua' ) );
-		if ( $categories_list && garua_categorized_blog() ) {
-			printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'garua' ) . '</span>', $categories_list );
-		}
+		// $categories_list = get_the_category_list( __( ', ', 'garua' ) );
+		// if ( $categories_list && garua_categorized_blog() ) {
+		// 	printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'garua' ) . '</span>', $categories_list );
+		// }
 
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', __( ', ', 'garua' ) );
@@ -163,3 +163,6 @@ function garua_category_transient_flusher() {
 }
 add_action( 'edit_category', 'garua_category_transient_flusher' );
 add_action( 'save_post',     'garua_category_transient_flusher' );
+
+
+

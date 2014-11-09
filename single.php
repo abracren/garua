@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php garua_post_nav(); ?>
+			
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
@@ -29,4 +29,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
+<div class="separator"></div>
+<?php garua_post_nav(); ?>
 <?php get_footer(); ?>

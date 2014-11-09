@@ -17,3 +17,37 @@
 
 
 }
+
+.hentry{
+.entry-title{
+margin-top:30px;
+}
+
+}
+.separator{
+		border-bottom: 1px solid #ddd;
+		clear:both;
+
+}
+.post-navigation{
+	
+.nav-previous, .nav-next{
+	min-height: 60px;
+	padding: 0;
+	padding: 60px 0;
+
+a{
+
+font-size: 18px;
+span.meta-nav{
+		
+		i{
+			position:relative;
+			top:9px;
+			font-size:50px;
+			margin: 0 15px;
+		}
+	}
+}
+}
+}
