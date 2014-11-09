@@ -20,10 +20,10 @@ $susy:(gutters: 0);
 #content {
     @include container($gridSizeMine center fluid);
     #primary {
-        @include span(9 of 12);
+        @include span(8 of 12);
     }
     #secondary {
-        @include span(3 of 12 last);
+        @include span(4 of 12 last);
     }
 }
 

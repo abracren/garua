@@ -6,11 +6,14 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+		<div class="post-header-image">
+	                <?php echo the_post_thumbnail('post-header-image'); ?>
+		</div>
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php garua_posted_on(); ?>
+			<?php garua_custom_article_header(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->

@@ -146,4 +146,18 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 
+/**
+ * Load Garua Specific Functions
+ */
+require get_template_directory() . '/inc/garua.php';
+
+/**
+ * Add Post Thumbnails - Featured Images
+ */
+
+add_theme_support( 'post-thumbnails' );
+
+//add_image_size('post-header-image', 960, 300, true);
+
+
 
