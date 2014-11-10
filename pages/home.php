@@ -19,7 +19,7 @@ Template Name: Home
 	<ul class="headings clearfix">
 		<li class="heading1"> 
 			<img></img>
-			<h2>Title</h2>
+			<H2>Title</h2>
 			<p>Description</p>
 		</li>
 		<li class="heading2"> 

@@ -379,25 +379,28 @@ a {
   /* one item */
   /* two items */
   /* three items */
-  /* four items */ }
+  /* four items */
+  /* five items */
+  /* six items */ }
   .main-navigation ul {
     list-style: none;
     margin: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    min-height: 3em;
+    position: relative; }
     .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
       position: absolute;
-      top: 1.5em;
       left: -999em;
-      z-index: 99999; }
+      z-index: 99999;
+      background-color: #ffffff;
+      min-width: 100%; }
       .main-navigation ul ul ul {
         left: -999em;
         top: 0; }
       .main-navigation ul ul li:hover > ul {
         left: 100%; }
       .main-navigation ul ul a {
-        width: 200px; }
+        min-width: 100%; }
     .main-navigation ul li:hover > ul {
       left: auto; }
   .main-navigation li:first-child:nth-last-child(1) {
@@ -411,11 +414,18 @@ a {
   .main-navigation li:first-child:nth-last-child(4),
   .main-navigation li:first-child:nth-last-child(4) ~ li {
     width: 25%; }
+  .main-navigation li:first-child:nth-last-child(5),
+  .main-navigation li:first-child:nth-last-child(5) ~ li {
+    width: 20%; }
+  .main-navigation li:first-child:nth-last-child(6),
+  .main-navigation li:first-child:nth-last-child(6) ~ li {
+    width: 16.6666666667%; }
   .main-navigation li {
     float: left;
-    position: relative; }
+    position: relative;
+    height: 50px; }
     .main-navigation li:hover > a {
-      background-color: #ff0000 !important; }
+      background-color: #aaa !important; }
   .main-navigation a {
     display: block;
     text-decoration: none;
@@ -423,11 +433,8 @@ a {
     font-weight: 500;
     text-align: center;
     font-size: .9em;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 5px; }
+    height: 100%;
+    padding: 12px; }
 
 /* Small menu */
 .menu-toggle {
@@ -816,7 +823,8 @@ object {
 .site-footer {
   background-color: #ddd;
   color: #000;
-  font-size: .8em; }
+  font-size: .8em;
+  padding: 10px; }
   .site-footer a {
     color: #000; }
 
@@ -826,7 +834,6 @@ object {
 body {
   background-color: #fafafa;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
   color: #aaa; }
   body a {
     color: #ff0000;
@@ -911,25 +918,30 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 14.6 FrontPage
 --------------------------------------------------------------*/
-.slider {
-  clear: both; }
-  .slider li {
-    background-color: #ddd;
-    display: inline-block;
-    min-width: 100%; }
-
 .headings {
   clear: both; }
   .headings li {
     background-color: #ddd;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
+    .headings li h2 {
+      font-size: 1.4em; }
 
 .blogAdvance {
   clear: both; }
   .blogAdvance li {
+    padding: 10px;
     background-color: #ddd;
     display: inline-block;
     min-width: 100%; }
 
 .slider {
-  background-color: #aaa; }
+  background-color: #fff000;
+  clear: both; }
+
+.slider-container li {
+  background-color: #fff000;
+  display: inline-block;
+  min-width: 100%;
+  color: #000;
+  min-height: 100px; }

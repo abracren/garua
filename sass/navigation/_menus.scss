@@ -1,133 +1,132 @@
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        min-height: 3em;
+        position: relative;
+        ul {
+            //box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            //float: left;
+            position: absolute;
+            //top: 3em;
+            left: -999em;
+            z-index: 99999;
+            background-color: $menu-child-bg;
+            min-width: 100%;
+            ul {
+                left: -999em;
+                top: 0;
+            }
+            li {
+                &:hover > ul {
+                    left: 100%;
+                }
+            }
+            a {
+                //width: 250px;
 
-	ul {
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-
-		ul {
-
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
-			top: 1.5em;
-			left: -999em;
-			z-index: 99999;
-
-			ul {
-				left: -999em;
-				top: 0;
-			}
-
-			li {
-				&:hover > ul {
-					left: 100%;
-				}
-			}
-
-			a {
-				width: 200px;
-			}
-
-			:hover > a {
-			}
-
-			a:hover {
-			}
-		}
-
-		li:hover > ul {
-			left: auto;
-		}
-	}
-	/* one item */
-		li:first-child:nth-last-child(1) {
-			width: 100%;
-		}
-
-		/* two items */
-		li:first-child:nth-last-child(2),
-		li:first-child:nth-last-child(2) ~ li {
-			width: 50%;
-		}
-
-		/* three items */
-		li:first-child:nth-last-child(3),
-		li:first-child:nth-last-child(3) ~ li {
-			width: 33.3333%;
-		}
-
-		/* four items */
-		li:first-child:nth-last-child(4),
-		li:first-child:nth-last-child(4) ~ li {
-			width: 25%;
-		}
-	li {
-		float: left;
-		position: relative;
-
-		&:hover > a {
-			background-color: #ff0000!important;
-		}
-	}
-	a {
-		display: block;
-		text-decoration: none;
-		color:#fff;
-		font-weight: 500;
-		text-align: center;
-		font-size: .9em;
-		padding-left:8%;
-		padding-right:8%;
-		padding-top: 5%;
-		padding-bottom: 5%;
-		border-radius: 5px;
-	}
-
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a {
-	}
+                min-width: 100%;
+            }
+            :hover > a {}
+            a:hover {}
+        }
+        li:hover > ul {
+            left: auto;
+        }
+    }
+    /* one item */
+    li:first-child:nth-last-child(1) {
+        width: 100%;
+    }
+    /* two items */
+    li:first-child:nth-last-child(2),
+    li:first-child:nth-last-child(2) ~ li {
+        width: 50%;
+    }
+    /* three items */
+    li:first-child:nth-last-child(3),
+    li:first-child:nth-last-child(3) ~ li {
+        width: 33.3333%;
+    }
+    /* four items */
+    li:first-child:nth-last-child(4),
+    li:first-child:nth-last-child(4) ~ li {
+        width: 25%;
+    }
+    /* five items */
+    li:first-child:nth-last-child(5),
+    li:first-child:nth-last-child(5) ~ li {
+        width: 20%;
+    }
+        /* six items */
+    li:first-child:nth-last-child(6),
+    li:first-child:nth-last-child(6) ~ li {
+        width: 16.6666666667%;
+    }
+    li {
+        float: left;
+        position: relative;
+        height: 50px;
+        &:hover > a {
+            background-color: $menu-hover !important;
+        }
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        font-size: .9em;
+        height: 100%;
+        padding: 12px;
+        //min-height: 20px;
+        //border-radius: 5px;
+   
+    }
+    .current_page_item > a,
+    .current-menu-item > a,
+    .current_page_ancestor > a {}
 }
 
 /* Small menu */
 .menu-toggle {
-	display: none;
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
-
-	.main-navigation ul {
-		display: none;
-	}
+    .menu-toggle,
+    .main-navigation.toggled .nav-menu {
+        display: block;
+    }
+    .main-navigation ul {
+        display: none;
+    }
 }
 
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
-	margin: 0 0 1.5em;
-	overflow: hidden;
+    margin: 0 0 1.5em;
+    overflow: hidden;
 }
 
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
+    float: right;
+    text-align: right;
+    width: 50%;
 }
