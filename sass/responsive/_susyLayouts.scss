@@ -14,6 +14,7 @@ $susy: (
 );
 
 $gridSizeMine: 1100px;
+$fullwidth: 1400px;
 
 
 $susy:(gutters: 0);
@@ -48,7 +49,42 @@ $susy:(gutters: .25);
 }
 
 
-$susy:(gutters: 0.05);
-.arkGameGrid li{
-  @include gallery(2 of 10);
+// $susy:(gutters: 0.05);
+// .arkGameGrid li{
+//   @include gallery(2 of 10);
+// }
+
+$susy:(gutters: .25);
+
+.slider-container{
+   @include container($gridSizeMine  center fluid);
+  li:nth-child(0){
+      @include span(12 of 12);
+  }
+
 }
+.headings{
+  @include container($gridSizeMine center fluid);
+  li{
+      @include span(4 of 12);
+  }
+  li:nth-child(2){
+        @include span(4 of 12 last);
+ 
+  }
+}
+
+
+.blogAdvance{
+   @include container($gridSizeMine center fluid);
+  li:nth-child(0){
+      @include span(12 of 12);
+  }
+
+}
+
+
+
+
+
+

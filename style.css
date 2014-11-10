@@ -724,30 +724,50 @@ object {
     display: block;
     clear: both; }
 
-.arkGameGrid li {
-  width: 19.61722%;
-  float: left; }
-  .arkGameGrid li:nth-child(5n + 1) {
+.slider-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto; }
+  .slider-container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .slider-container li:nth-child(0) {
+    width: 100%;
+    float: left;
     margin-left: 0;
-    margin-right: -100%;
-    clear: both;
-    margin-left: 0; }
-  .arkGameGrid li:nth-child(5n + 2) {
-    margin-left: 20.09569%;
-    margin-right: -100%;
-    clear: none; }
-  .arkGameGrid li:nth-child(5n + 3) {
-    margin-left: 40.19139%;
-    margin-right: -100%;
-    clear: none; }
-  .arkGameGrid li:nth-child(5n + 4) {
-    margin-left: 60.28708%;
-    margin-right: -100%;
-    clear: none; }
-  .arkGameGrid li:nth-child(5n + 5) {
-    margin-left: 80.38278%;
-    margin-right: -100%;
-    clear: none; }
+    margin-right: 0; }
+
+.headings {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto; }
+  .headings:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .headings li {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; }
+  .headings li:nth-child(2) {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0; }
+
+.blogAdvance {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto; }
+  .blogAdvance:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .blogAdvance li:nth-child(0) {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
 
 /*--------------------------------------------------------------
 14.1 header
@@ -887,3 +907,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .8em; }
   .form-allowed-tags code {
     font-size: .9em; }
+
+/*--------------------------------------------------------------
+14.6 FrontPage
+--------------------------------------------------------------*/
+.slider {
+  clear: both; }
+  .slider li {
+    background-color: #ddd;
+    display: inline-block;
+    min-width: 100%; }
+
+.headings {
+  clear: both; }
+  .headings li {
+    background-color: #ddd;
+    display: inline-block; }
+
+.blogAdvance {
+  clear: both; }
+  .blogAdvance li {
+    background-color: #ddd;
+    display: inline-block;
+    min-width: 100%; }
+
+.slider {
+  background-color: #aaa; }
