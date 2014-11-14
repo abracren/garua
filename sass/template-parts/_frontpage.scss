@@ -1,5 +1,6 @@
-.headings {
+.headings-wrap {
     clear: both;
+    margin-top:25px;
     li {
         background-color: #ddd;
         display: inline-block;
@@ -11,7 +12,7 @@
 
 }
 
-.blogAdvance {
+.blog-advance {
     clear: both;
     li {
     	padding:10px;
@@ -21,13 +22,13 @@
     }
 }
 
-.slider {
+.slider-wrap {
     background-color: #fff000;
     clear: both;
 
 }
 
-.slider-container {
+.slider-container,.slider-fullwidth-container {
     li {
         background-color: #fff000;
         display: inline-block;
@@ -36,3 +37,35 @@
         min-height: 100px;
     }
 }
+
+
+.grids-wrap{
+    .item {
+        img {
+            max-width: 100%;
+         }
+    }
+
+
+    .item {
+        display: block; 
+        background-color:#fff;
+        height:240px;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+}
+.portfolio-wrap{
+    .portfolio-grid{
+        li{
+            display: inline-block;
+            text-align: center;
+        }
+
+    }
+}
+

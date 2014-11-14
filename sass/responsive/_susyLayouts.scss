@@ -1,17 +1,18 @@
 $susy: (
-  flow: ltr,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: 100%,
-  container-position: center,
-  columns: 12,
-  gutters: .25,
-  column-width: false,
-  global-box-sizing: content-box,
-  last-flow: to
+flow: ltr,
+math: fluid,
+output: float,
+gutter-position: after,
+container: 100%,
+container-position: center,
+columns: 12,
+gutters: .25,
+column-width: false,
+global-box-sizing: content-box,
+
 
 );
+@include border-box-sizing;
 
 $gridSizeMine: 1100px;
 $fullwidth: 1400px;
@@ -51,36 +52,80 @@ $susy:(gutters: .25);
 
 // $susy:(gutters: 0.05);
 // .arkGameGrid li{
-//   @include gallery(2 of 10);
+    //   @include gallery(2 of 10);
 // }
+
+/*--------------------------------------------------------------
+Grid Frontpage Slider
+--------------------------------------------------------------*/
 
 $susy:(gutters: .25);
 
 .slider-container{
-   @include container($gridSizeMine  center fluid);
-  li:nth-child(0){
-      @include span(12 of 12);
-  }
-
+    @include container($gridSizeMine  center fluid);
+    li:nth-child(0){
+        //@include span(12 of 12);
+    }
+    
 }
+.slider-fullwidth-container{
+    li:nth-child(0){
+        //@include span(12 of 12);
+    }
+    
+}
+
+/*--------------------------------------------------------------
+Grid Frontpage Headings
+--------------------------------------------------------------*/
+
 .headings{
-  @include container($gridSizeMine center fluid);
-  li{
-      @include span(4 of 12);
-  }
-  li:nth-child(2){
+    @include container($gridSizeMine center fluid);
+    
+    li{
+        @include span(4 of 12);
+    }
+    li:nth-child(2){
         @include span(4 of 12 last);
- 
-  }
+        
+    }
+    
+    
+    
 }
 
 
-.blogAdvance{
-   @include container($gridSizeMine center fluid);
-  li:nth-child(0){
-      @include span(12 of 12);
-  }
+/*--------------------------------------------------------------
+Grid Blog Frontpage
+--------------------------------------------------------------*/
 
+.blog-advance{
+    @include container($gridSizeMine center fluid);
+    li:nth-child(0){
+        @include span(12 of 12);
+    }
+    
+}
+
+
+/*--------------------------------------------------------------
+Grid Frontpage Assymetrical Grid
+--------------------------------------------------------------*/
+
+$susy:(gutters: .25, columns: 3 3 6, output:isolate);
+.frontpage-grid-bottom {
+    @include container($gridSizeMine center fluid);
+    .item1{
+        @include span(1 first);
+    }
+    .item2{
+        @include span(1 at 2 );
+    }
+    .item3{
+        @include span(1 at 3 last);
+    }
+    $susy:(gutters: 0, columns: 12);
+    
 }
 
 
@@ -88,3 +133,192 @@ $susy:(gutters: .25);
 
 
 
+$susy:(gutters: .25, columns: 6 3 3, output:isolate);
+.frontpage-grid-top {
+    
+    @include container($gridSizeMine center fluid);
+    .item1{
+        @include span(1 first);
+    }
+    .item2{
+        @include span(1 at 2 );
+    }
+    .item3{
+        @include span(1 at 3 last);
+    }
+    
+}
+
+/*--------------------------------------------------------------
+Grid Frontpage Portfolio
+--------------------------------------------------------------*/
+
+.portfolio-wrap{
+    
+    
+    
+    .portfolio-5-col{
+        
+        @include container($gridSizeMine center fluid);
+        li{
+            @include gallery(1 of 5 .1 fluid);
+            margin-bottom: 10px;
+            
+        }
+    }
+
+   
+    
+    .portfolio-4-col{
+        
+        @include container($gridSizeMine center fluid);
+        
+        li{
+            @include gallery(1 of 4 .1 fluid);
+            margin-bottom: 20px;
+            
+        }
+    }
+
+    
+
+    .portfolio-3-col{
+        
+        @include container($gridSizeMine center fluid);
+        
+        li{
+            @include gallery(1 of 3 .1 fluid);
+            margin-bottom: 20px;
+            
+        }
+    }
+
+    
+
+    .portfolio-2-col{
+        
+        @include container($gridSizeMine center fluid);
+        
+        li{
+            @include gallery(1 of 2 .1 fluid);
+            margin-bottom: 20px;
+            
+        }
+    }
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+$small-screens Breakpoint
+--------------------------------------------------------------*/
+
+$susy:(gutters: 0, columns: 12);
+.headings{
+    
+    @include breakpoint($small-screens) {
+        li{
+            @include clearfix;
+            @include span(1 of 1);
+            
+        }
+        li:nth-child(2){
+            @include clearfix;
+            @include span(1 of 1 last);
+        }
+        
+        
+        
+        
+    }
+}
+
+.frontpage-grid-bottom {
+    @include breakpoint($small-screens) {
+        .item1{
+            
+            @include span(6);
+            margin:0;
+        }
+        .item2{
+            
+            
+            @include span(6 );
+            margin:0;
+        }
+        .item3{
+            clear:both;
+            @include span(12 of 12 last);
+        }
+        
+    }
+}
+
+
+.frontpage-grid-top {
+    @include breakpoint($small-screens) {
+        margin-bottom:0;
+        .item{
+            
+            @include span(12);
+            
+        }
+        .item2{
+            
+            clear:both;
+            @include span(6 );
+            margin:0;
+        }
+        .item3{
+            
+            @include span(6 of 12 last);
+            margin:0;
+        }
+        
+    }
+    
+}
+
+
+/*--------------------------------------------------------------
+$smallmax-screens Breakpoint
+--------------------------------------------------------------*/
+$susy:(gutters: .25, columns: 7 5, output:isolate);
+.frontpage-grid-top {
+    @include breakpoint($smallmax-screens){
+        //@include container($gridSizeMine center fluid);
+        
+        .item1{
+            @include span(1 first);
+        }
+        .item2{
+            display:none!important;
+            
+        }
+        .item3{
+            @include span(1 at 2 last );
+        }
+    }
+    
+}
+
+$susy:(gutters: .25, columns: 5 7, output:isolate);
+.frontpage-grid-bottom {
+    @include breakpoint($smallmax-screens){
+        //@include container($gridSizeMine center fluid);
+        
+        .item1{
+            @include span(1 first);
+        }
+        .item2{
+            display:none!important;
+            
+        }
+        .item3{
+            @include span(1 at 2 last );
+        }
+    }
+    
+}

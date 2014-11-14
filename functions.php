@@ -8,8 +8,10 @@
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
+
+$garuafw_debug = true;
 if ( ! isset( $content_width ) ) {
-	$content_width = 640; /* pixels */
+	$content_width = 1100; /* pixels */
 }
 
 if ( ! function_exists( 'garua_setup' ) ) :
@@ -93,7 +95,13 @@ add_action( 'widgets_init', 'garua_widgets_init' );
  */
 function garua_scripts() {
 	wp_enqueue_style( 'garua-style', get_stylesheet_uri() );
-
+	if(is_page( 'Home' )) {
+	//wp_enqueue_style( 'owl-style',  get_template_directory_uri() . '/bower_components/OwlCarousel/owl-carousel/owl.carousel.css' );
+	//wp_enqueue_style( 'owl-theme-style',  get_template_directory_uri() . '/bower_components/OwlCarousel/owl-carousel/owl.theme.css' );
+	wp_enqueue_style( 'owl-style',  get_template_directory_uri() . '/bower_components/OwlCarousel2/assets/owl.carousel.css' );
+	wp_enqueue_style( 'owl-style',  get_template_directory_uri() . '/bower_components/OwlCarousel2/assets/owl.theme.default.css' );
+	//wp_enqueue_style( 'owl-style_them',  get_template_directory_uri() . '/bower_components/OwlCarousel2/src/css/owl.theme.default.css' );
+	}
 	wp_deregister_script( 'jquery' );
 	$jquery_cdn = '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js';
 	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '20100226', true );
@@ -101,7 +109,12 @@ function garua_scripts() {
 	wp_enqueue_script( 'garua-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'garua-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
-	
+
+	if(is_page( 'Home' )) {
+	wp_enqueue_script( 'owl-script', get_template_directory_uri() . '/bower_components/OwlCarousel2/owl.carousel.js', array(), '20130455', true );
+	//wp_enqueue_script( 'owl-script-navi', get_template_directory_uri() . '/bower_components/OwlCarousel2/src/js/owl.navigation.js', array(), '20130455', true );
+	}
+
 	wp_enqueue_script( 'garua-match-height', get_template_directory_uri() . '/js/matchHeight.js', array(), '20140001', true );
 	
 	wp_enqueue_script( 'garua-scripts', get_template_directory_uri() . '/js/scripts.js', array(), '20140001', true );

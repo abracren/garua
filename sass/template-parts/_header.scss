@@ -1,3 +1,20 @@
-.site-header{
-	background-color: #ddd;
+.site-header {
+    background-color: #ddd;
+    position: relative;
+    .site-title {
+        font-size: 3em;
+    }
+    nav {font-size: .9em;
+        position: relative;
+        .menu-main-menu-container {
+            height: 73px;
+
+            #menu-main-menu {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                 width:100%;
+            }
+        }
+    }
 }

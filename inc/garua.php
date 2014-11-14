@@ -53,3 +53,35 @@ function garua_custom_article_header() {
 
 }
 endif;
+
+function garua_load_scripts() {
+		
+		
+		
+		wp_enqueue_script('mxd-ajax', get_template_directory_uri() . '/js/ajaxHome.js', array('jquery'));
+		wp_localize_script('mxd-ajax', 'mxd_vars', array(
+				'mxd_nonce' => wp_create_nonce('mxd-nonce')
+			));
+
+	}
+add_action( 'addJsAjax', 'garua_load_scripts' );
+
+function mxd_get_ajax(){
+	if( !isset( $_POST['mxd_nonce'] ) || !wp_verify_nonce($_POST['mxd_nonce'], 'mxd-nonce') )
+		die('Permissions check failed');	
+	
+	echo 'test22';
+	die();
+}
+//add_action('wp_ajax_mxd_get_results',  array($this,'mxd_get_ajax'));
+add_action('wp_ajax_nopriv_mxd_get_results', 'mxd_get_ajax');
+add_action('wp_ajax_mxd_get_results',  'mxd_get_ajax');
+
+function garua_testAction() {
+	// Like, beat it. Dig?
+	echo 'hola desde function';
+}
+add_action( 'testGarua', 'garua_testAction' );
+
+
+

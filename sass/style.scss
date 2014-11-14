@@ -52,8 +52,31 @@ $content-background-color:#fafafa;
 $menu-hover:#aaa;
 $menu-child-bg:#ffffff;
 
+/*--------------------------------------------------------------
+Breakpoints
+--------------------------------------------------------------*/
+
+// assume min-width (by default) if only a number
+//$high-tide: 500px;
+// set min-width/max-width if both values are numbers
+//$ex-presidents: 600px 800px;
+// if one value is a string, assume a feature/value pair
+//$surfboard-width: max-width 1000px;
+// string tests together within parentheses, assume each item is a feature value pair
+//$surfboard-height: (min-height 1000px) (orientation portrait);
+
+$small-screens: max-width 480px; 
+$smallmax-screens: 481px 640px;
+$medium-screens: min-width 641px; 
+$large-screens: min-width 1025px;
+$xlarge-screens:  min-width 1441px;
+$xxlarge-screens: min-width 1921px;
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+//@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
 
@@ -118,13 +141,30 @@ $menu-child-bg:#ffffff;
 @import "media/media";
 
 @import "susy";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "bower_components/font-awesome/css/font-awesome.min.css";
+
 
 @import "responsive/susyLayouts"; 
 @import "template-parts/template-parts"; 
+//@import "";
+//@import "../bower_components/OwlCarousel/owl-carousel/owl.carousel.css";
 
 
 body{
 	//background-color: #000;
 }
+.garuafw_debug{
+	background-color: #ddd;
 
+}
+.accordion-toggle {cursor: pointer;margin: 0;}
+  .accordion-content {display: none;}
+  .accordion-content.default {display: none;}
+ .accordion-toggle{
+  background-color: #fafafa;
+padding: 10px;
+font-size: 20px;
+border-bottom: 1px solid #aaa;
+}
 
