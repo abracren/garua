@@ -29,6 +29,11 @@ $susy:(gutters: 0);
     }
 }
 
+.inside-container{
+    @include container($gridSizeMine center fluid);
+
+
+}
 
 $susy:(gutters: .25);
 .header-container {
@@ -79,18 +84,17 @@ $susy:(gutters: .25);
 Grid Frontpage Headings
 --------------------------------------------------------------*/
 
-.headings{
+$susy:(gutters: .25, columns: 12);
+.headings-frontpage-container{
     @include container($gridSizeMine center fluid);
     
-    li{
+    .item{
         @include span(4 of 12);
     }
-    li:nth-child(2){
+    .last{
         @include span(4 of 12 last);
         
     }
-    
-    
     
 }
 
@@ -112,7 +116,7 @@ Grid Blog Frontpage
 Grid Frontpage Assymetrical Grid
 --------------------------------------------------------------*/
 
-$susy:(gutters: .25, columns: 3 3 6, output:isolate);
+$susy:(gutters: .1, columns: 2 2 3, output:isolate);
 .frontpage-grid-bottom {
     @include container($gridSizeMine center fluid);
     .item1{
@@ -124,7 +128,7 @@ $susy:(gutters: .25, columns: 3 3 6, output:isolate);
     .item3{
         @include span(1 at 3 last);
     }
-    $susy:(gutters: 0, columns: 12);
+   
     
 }
 
@@ -133,7 +137,7 @@ $susy:(gutters: .25, columns: 3 3 6, output:isolate);
 
 
 
-$susy:(gutters: .25, columns: 6 3 3, output:isolate);
+$susy:(gutters: .1, columns: 3 2 2, output:isolate);
 .frontpage-grid-top {
     
     @include container($gridSizeMine center fluid);
@@ -207,24 +211,55 @@ Grid Frontpage Portfolio
     }
 }
 
+/*--------------------------------------------------------------
+Grid Frontpage Portfolio
+--------------------------------------------------------------*/
+.brands-wrap{
+    .brands-grid{
+            
+        @include container($gridSizeMine center fluid);
+        li{
+            @include gallery(1 of 5 .1 fluid);
+            margin-bottom: 10px;
+            
+        }
+    }
+}
 
+/*--------------------------------------------------------------
+Grid footer-credits
+--------------------------------------------------------------*/
+$susy:(gutters: .25, columns: 12);
 
-
+.footer-credits-container{
+    @include container($gridSizeMine center fluid);
+    
+    .item{
+        @include span(4 of 12);
+    }
+    .last{
+        @include span(4 of 12 last);
+        
+    }
+    
+    
+    
+}
 
 /*--------------------------------------------------------------
 $small-screens Breakpoint
 --------------------------------------------------------------*/
 
 $susy:(gutters: 0, columns: 12);
-.headings{
+.headings-frontpage-container{
     
     @include breakpoint($small-screens) {
-        li{
+        .item{
             @include clearfix;
             @include span(1 of 1);
             
         }
-        li:nth-child(2){
+        .last{
             @include clearfix;
             @include span(1 of 1 last);
         }

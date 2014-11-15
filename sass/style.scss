@@ -44,9 +44,9 @@ and Blueprint http://www.blueprintcss.org/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
-$link-color: #ff0000;
+$link-color: #ff0000; 
 $secondary-link-color: #000033;
-$body-font-color:#aaa;
+$body-font-color:#000;
 $background-color: #fafafa;
 $content-background-color:#fafafa;
 $menu-hover:#aaa;
@@ -75,7 +75,7 @@ $xxlarge-screens: min-width 1921px;
 
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-//@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 @import "variables-site/variables-site";
 @import "mixins/mixins-master";
@@ -142,7 +142,7 @@ $xxlarge-screens: min-width 1921px;
 
 @import "susy";
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import "bower_components/font-awesome/css/font-awesome.min.css";
+//@import "bower_components/font-awesome/css/font-awesome.min.css";
 
 
 @import "responsive/susyLayouts"; 
@@ -151,20 +151,43 @@ $xxlarge-screens: min-width 1921px;
 //@import "../bower_components/OwlCarousel/owl-carousel/owl.carousel.css";
 
 
-body{
-	//background-color: #000;
+//helpers
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
 }
+.visually-hidden {
+  @extend %visuallyhidden;
+}
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+//debug
 .garuafw_debug{
 	background-color: #ddd;
 
 }
 .accordion-toggle {cursor: pointer;margin: 0;}
-  .accordion-content {display: none;}
-  .accordion-content.default {display: none;}
- .accordion-toggle{
-  background-color: #fafafa;
-padding: 10px;
-font-size: 20px;
-border-bottom: 1px solid #aaa;
+.accordion-content {display: none;}
+.accordion-content.default {display: none;}
+.accordion-toggle{
+  	background-color: #218E15;
+  	color:#fff;
+	padding: 10px;
+	font-size: 20px;
+	border-bottom: 1px solid #aaa;
 }
 

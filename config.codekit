@@ -43,7 +43,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/css\/_breakpoint.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -59,7 +59,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/css\/_context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -75,7 +75,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/css\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -91,7 +91,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/css\/_no-query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -107,7 +107,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/css\/_parsers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -123,7 +123,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/css\/_respond-to.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -139,7 +139,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/css\/_double.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -155,7 +155,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/css\/_query.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -171,7 +171,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -187,7 +187,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/css\/_single.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -203,7 +203,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/css\/_triple.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -219,7 +219,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_default-pair.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -235,7 +235,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -251,7 +251,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_double-string.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -267,7 +267,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_resolution.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -283,7 +283,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -299,7 +299,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/breakpoint-sass\/stylesheets\/breakpoint\/parsers\/css\/_default.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -613,7 +613,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_bordered-pulled.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -629,7 +629,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_core.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -645,7 +645,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_extras.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -661,7 +661,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_fixed-width.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -677,7 +677,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_icons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -693,7 +693,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_larger.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -709,7 +709,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_list.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -725,7 +725,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -741,7 +741,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_path.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -757,7 +757,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_rotated-flipped.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -773,7 +773,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_spinning.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -789,7 +789,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_stacked.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -805,7 +805,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -821,7 +821,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/font-awesome\/css\/font-awesome.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1628,7 +1628,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/css\/example.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1665,7 +1665,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/css\/_memo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1681,7 +1681,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/css\/_sassy-maps.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1697,7 +1697,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/css\/_map-get.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1713,7 +1713,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/css\/_map-set.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1729,7 +1729,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/sassy-maps\/sass\/css\/_map-to-string.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1769,7 +1769,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/css\/_susy.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1785,7 +1785,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/css\/_susyone.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1801,7 +1801,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/css\/_math.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1817,7 +1817,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_susy.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1833,7 +1833,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_susyone.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1849,7 +1849,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1865,7 +1865,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_bleed.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1881,7 +1881,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_box-sizing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1897,7 +1897,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_breakpoint-plugin.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1913,7 +1913,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_container.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1929,7 +1929,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_context.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1945,7 +1945,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_gallery.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1961,7 +1961,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_grids.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1977,7 +1977,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_gutters.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1993,7 +1993,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_isolate.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2009,7 +2009,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_margins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2025,7 +2025,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_padding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2041,7 +2041,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_rows.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2057,7 +2057,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2073,7 +2073,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_span.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2089,7 +2089,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_validation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2105,7 +2105,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2121,7 +2121,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2137,7 +2137,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2153,7 +2153,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_isolation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2169,7 +2169,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_margin.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2185,7 +2185,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2201,7 +2201,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_padding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2217,7 +2217,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/language\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2233,7 +2233,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_su.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2249,7 +2249,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/math\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2265,7 +2265,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/math\/css\/_maps.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2281,7 +2281,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/math\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2297,7 +2297,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/math\/css\/_validation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2313,7 +2313,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_float.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2329,7 +2329,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_shared.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2345,7 +2345,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/css\/_support.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2361,7 +2361,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_container.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2377,7 +2377,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_end.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2393,7 +2393,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_isolate.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2409,7 +2409,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_span.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2425,7 +2425,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2441,7 +2441,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_container.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2457,7 +2457,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_direction.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2473,7 +2473,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_inspect.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2489,7 +2489,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_margins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2505,7 +2505,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_output.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2521,7 +2521,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_padding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2537,7 +2537,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2553,7 +2553,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_box-sizing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2569,7 +2569,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_clearfix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2585,7 +2585,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_prefix.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2601,7 +2601,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_rem.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2617,7 +2617,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/sass\/susy\/output\/css\/_support.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2633,7 +2633,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/templates\/css\/_grids.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2649,7 +2649,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/susy\/templates\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3021,7 +3021,7 @@
 		"outputAbbreviatedPath": "\/css\/_reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3037,7 +3037,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_elements.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3053,7 +3053,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_lists.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3069,7 +3069,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3085,7 +3085,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3101,7 +3101,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_fields.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3117,7 +3117,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3133,7 +3133,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_content-sidebar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3149,7 +3149,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_sidebar-content.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3165,7 +3165,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_captions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3181,7 +3181,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_galleries.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3197,7 +3197,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3213,7 +3213,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_mixins-master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3229,7 +3229,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_accessibility.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3245,7 +3245,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_alignments.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3261,7 +3261,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_clearings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3277,7 +3277,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_infinite-scroll.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3293,7 +3293,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_links.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3309,7 +3309,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_menus.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3325,7 +3325,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3341,7 +3341,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_susyLayouts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3357,7 +3357,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_site.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3373,7 +3373,7 @@
 		"outputAbbreviatedPath": "\/sass\/site\/css\/_asides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3389,7 +3389,7 @@
 		"outputAbbreviatedPath": "\/sass\/site\/css\/_comments.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3405,7 +3405,7 @@
 		"outputAbbreviatedPath": "\/sass\/site\/css\/_posts-and-pages.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3421,7 +3421,7 @@
 		"outputAbbreviatedPath": "\/sass\/site\/css\/_widgets.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3437,7 +3437,7 @@
 		"outputAbbreviatedPath": "\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3453,7 +3453,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_body.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3469,7 +3469,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_comments.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3485,7 +3485,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_content.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3501,7 +3501,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3517,7 +3517,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_frontpage.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3533,7 +3533,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3549,7 +3549,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_sidebar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3565,7 +3565,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_slider.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3581,7 +3581,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_template-parts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3597,7 +3597,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_copy.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3613,7 +3613,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_headings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3629,7 +3629,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3645,7 +3645,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3661,7 +3661,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_structure.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3677,7 +3677,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -3693,7 +3693,7 @@
 		"outputAbbreviatedPath": "\/sass\/css\/_variables-site.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -4338,7 +4338,7 @@
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 5,
-	"sassOutputStyle": 1,
+	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,

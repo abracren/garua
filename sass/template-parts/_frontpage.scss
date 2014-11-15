@@ -1,12 +1,15 @@
-.headings-wrap {
+.headings-frontpage-wrap{
     clear: both;
-    margin-top:25px;
-    li {
-        background-color: #ddd;
-        display: inline-block;
-        text-align: center;
-        h2{
-        	font-size: 1.4em;
+
+    .headings-frontpage-container{
+        margin-top:25px;
+        li {
+            background-color: #ddd;
+            display: inline-block;
+            text-align: center;
+            h2{
+            	font-size: 1.4em;
+            }
         }
     }
 
@@ -40,6 +43,10 @@
 
 
 .grids-wrap{
+    .frontpage-grid-top{
+        margin-bottom: 18px;
+
+    }
     .item {
         img {
             max-width: 100%;
@@ -69,3 +76,44 @@
     }
 }
 
+.brands-wrap{
+    background-color: #333;
+    padding: 100px 0 50px 0; 
+    .brands-grid{
+        li{
+            display: inline-block;
+        }
+    }
+
+}
+.footer-goup-wrap{
+    background-color: #fff;
+    max-height: 50px;
+    span{
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        padding-top: 37px;
+        display: block;
+        position: relative;
+        top: -50px;
+        @include center-block;
+    }
+}
+.footer-credits-wrap{
+    clear: both;
+    background-color: #fff;
+    min-height: 50px;
+    .footer-credits-container{
+        li {
+            background-color: #ddd;
+            display: inline-block;
+            text-align: center;
+            
+        }
+    }
+
+}

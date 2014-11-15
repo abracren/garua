@@ -9,74 +9,70 @@ Template Name: Home
 </div> <!-- End main page -->
 
 <div class="frontpage">
+
 	<div class="slider-wrap" >
 		<!-- <div id="owl-example" class=" slider-container  owl-carousel"> -->
-		<div id="owl-example" class=" slider-fullwidth-container owl-carousel">
-			<div >
-				<img src="//garua.dev/images/1900x500.gif"/>
-			</div>
-			<div>
-				<img src="//garua.dev/images/1900x500.gif"/>
-			</div>
-			<div>
-				<img src="//garua.dev/images/1900x500.gif"/>
-			</div>
-			<div>
-				<img src="//garua.dev/images/1900x500.gif"/>
-			</div>
-			<div>
-				<img src="//garua.dev/images/1900x500.gif"/>
-			</div>
-		</div>
+		<div id="owl-slider-frontpage" class="slider-fullwidth-container owl-carousel">
+			<div><img src="//garua.dev/images/1900x500.gif"/></div>
+			<div><img src="//garua.dev/images/1900x500.gif"/></div>
+			<div><img src="//garua.dev/images/1900x500.gif"/></div>
+			<div><img src="//garua.dev/images/1900x500.gif"/></div>
 	
-	
-    </div>
+		</div><!-- End>> owl-slider -->
+    </div><!-- End>> slider-wrap -->
 
 
-	<div class="headings-wrap">
-		<ul class="headings clearfix">
-			<li class="heading1"> 
+	<div class="headings-frontpage-wrap">
+		<ul class="headings-frontpage-container">
+			<li class="heading1 item"> 
 				<img></img>
 				<h2>Title</h2>
 				<p>Description</p>
 			</li>
-			<li class="heading2"> 
+			<li class="heading2 item"> 
 				<img></img>
 				<h2>Title</h2>
 				<p>Description</p>
 			</li>
-			<li class="heading3"> 
+			<li class="heading3 item last"> 
 				<img></img>
 				<h2>Title</h2>
 				<p>Description</p>
 			</li>
-		</ul>
-	</div>
+		</ul><!-- End>> headings-container -->
+	</div><!-- End>> eadings-wrap -->
+
 	<div class="grids-wrap">
+		<div class="inside-container">
+			<h2>Grids</h2>
+		</div>
 		<ul class="frontpage-grid-top">
 			<li class="item1 item" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
 			</li>
-			<li class="item2 item" style="background:#fff url('//garua.dev/images/250.gif') no-repeat center center ;">
+			<li class="item2 item" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
 			</li>
-			<li class="item3 item " style="background:#fff url('//garua.dev/images/250.gif') no-repeat center center;">
+			<li class="item3 item " style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
 			</li>
-		</ul>
+		</ul><!-- End>> frontpage-grid-top -->
 
 		 
 		<ul class="frontpage-grid-bottom">
 			
-			<li class="item1 item" style="background:#fff url('//garua.dev/images/250.gif') no-repeat center center ;">
+			<li class="item1 item" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
 			</li>
-			<li class="item2 item " style="background:#fff url('//garua.dev/images/250.gif') no-repeat center center;">
+			<li class="item2 item " style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
 			</li>
 			<li class="item3 item" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
 			</li>
-		</ul>
-	</div>
+		</ul><!-- End>> frontpage-grid-bottom -->
+	</div><!-- End>> grids-wrap -->
+
 	<div class="portfolio-wrap">
-		
-		<h3>4 columns</h3>
+		<div class="inside-container">
+			<h2>Portfolio</h2>
+		</div>
 		<ul class="portfolio-grid portfolio-4-col">
+
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
@@ -86,12 +82,42 @@ Template Name: Home
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
 			<li><img src="//garua.dev/images/250_2.gif"/></li>
-		</ul>
+		</ul><!-- End>> portfolio-grid -->
 		
+	</div><!-- End>> portfolio-wrap -->
+
+	<div class="brands-wrap">
+		<ul class="brands-grid">
+			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+			
+		</ul>
+
+
+	</div>
+	<div class="footer-goup-wrap">
+		<span> go-up </span>
+	</div>
+	<div class="footer-credits-wrap">
+		
+		<ul class="footer-credits-container">
+			<li class="item">a</li>
+			<li class="item">a</li>
+			<li class="item last">a</li>
+			
+		</ul>
+
+
 	</div>
 	
 	
-</div>
+</div><!-- End>> frontpage -->
+
+
+
 <!-- <h2>testAjax</h2>
 		
 		<form id="mxd-form" action="" method="POST">
@@ -105,6 +131,7 @@ Template Name: Home
 //do_action( 'testGarua' );
 //do_action( 'addJsAjax' );
 ?>
+
 
 
 <?php get_footer(); ?>
@@ -125,13 +152,15 @@ Template Name: Home
 		</div>
 	</div>
 </div>
+
+
 <script type="text/javascript">
 var ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';
 
 
 $(document).ready(function() {
  
-  $("#owl-example").owlCarousel({
+  $("#owl-slider-frontpage").owlCarousel({
   	loop:true,
   	 items:1,
      nav:false,
