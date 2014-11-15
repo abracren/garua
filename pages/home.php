@@ -87,19 +87,56 @@ Template Name: Home
 	</div><!-- End>> portfolio-wrap -->
 
 	<div class="brands-wrap">
-		<ul class="brands-grid">
-			<li><img src="//placehold.it/200x50&text=Brand"/></li>
-			<li><img src="//placehold.it/200x50&text=Brand"/></li>
-			<li><img src="//placehold.it/200x50&text=Brand"/></li>
-			<li><img src="//placehold.it/200x50&text=Brand"/></li>
-			<li><img src="//placehold.it/200x50&text=Brand"/></li>
+		<ul class="brands-container brands-4">
+			
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+				
+
+			
+			
+			
+		</ul>
+		<ul class="brands-container brands-3">
+			
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+				
+
+			
+			
+			
+		</ul>
+		<ul class="brands-container brands-2">
+			
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					<li><img src="//placehold.it/200x50&text=Brand"/></li>
+					
+				
+
+			
+			
 			
 		</ul>
 
 
 	</div>
 	<div class="footer-goup-wrap">
-		<span> go-up </span>
+		
+			<span> go-up </span>
+	
 	</div>
 	<div class="footer-credits-wrap">
 		

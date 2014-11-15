@@ -215,12 +215,43 @@ Grid Frontpage Portfolio
 Grid Frontpage Portfolio
 --------------------------------------------------------------*/
 .brands-wrap{
-    .brands-grid{
+    .brands-container.brands-5{
             
         @include container($gridSizeMine center fluid);
         li{
-            @include gallery(1 of 5 .1 fluid);
-            margin-bottom: 10px;
+           
+                @include gallery(1 of 5 .1 fluid);
+           
+            
+        }
+    }
+    .brands-container.brands-4{
+            
+        @include container($gridSizeMine center fluid);
+        li{
+           
+                @include gallery(1 of 4 .1 fluid);
+           
+            
+        }
+    }
+    .brands-container.brands-3{
+            
+        @include container($gridSizeMine/3*2 center fluid);
+        li{
+           
+                @include gallery(1 of 3 .1 fluid);
+           
+            
+        }
+    }
+    .brands-container.brands-2{
+            
+        @include container($gridSizeMine/4*2 center fluid);
+        li{
+           
+                @include gallery(1 of 2 .1 fluid);
+           
             
         }
     }

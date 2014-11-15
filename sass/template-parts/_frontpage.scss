@@ -1,5 +1,8 @@
 .headings-frontpage-wrap{
     clear: both;
+        padding-bottom: 1.5em;
+
+
 
     .headings-frontpage-container{
         margin-top:25px;
@@ -16,6 +19,7 @@
 }
 
 .blog-advance {
+    padding-bottom: 1.5em;
     clear: both;
     li {
     	padding:10px;
@@ -43,6 +47,8 @@
 
 
 .grids-wrap{
+    padding-bottom: 1.5em;
+
     .frontpage-grid-top{
         margin-bottom: 18px;
 
@@ -67,7 +73,10 @@
     }
 }
 .portfolio-wrap{
+    background-color: #fff000;
+    padding-bottom: 1.5em;
     .portfolio-grid{
+        margin-bottom: 0px;
         li{
             display: inline-block;
             text-align: center;
@@ -79,16 +88,19 @@
 .brands-wrap{
     background-color: #333;
     padding: 100px 0 50px 0; 
-    .brands-grid{
+
+    .brands-container{
         li{
             display: inline-block;
+            text-align: center;
         }
     }
 
 }
 .footer-goup-wrap{
     background-color: #fff;
-    max-height: 50px;
+    max-height: 80px;
+   // margin-bottom: -24px;
     span{
 
         width: 100px;

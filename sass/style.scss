@@ -171,7 +171,10 @@ $xxlarge-screens: min-width 1921px;
   margin-left: auto;
   margin-right: auto;
 }
-
+@mixin center($columns, $context: $total-columns) {
+  width: columns($columns, $context);
+  margin: 0 auto;
+}
 
 
 
