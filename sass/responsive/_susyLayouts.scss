@@ -357,3 +357,76 @@ $susy:(gutters: .25, columns: 5 7, output:isolate);
     }
     
 }
+
+
+/*--------------------------------------------------------------
+Shortcodes
+--------------------------------------------------------------*/
+$susy:(gutters: .25, columns: 12);
+
+.entry-content{
+  @include container(100% center fluid);
+
+}
+.sh-half-column{
+ 
+    @include span(6 of 12 .25 fluid);
+  
+
+}
+
+.sh-half-column.last{
+
+    @include span(6 of 12 .25 fluid last);
+  
+
+}
+
+
+.sh-third-column{
+
+    @include span(4 of 12 .25 fluid);
+  
+
+}
+.sh-third-column.last{
+  
+    @include span(4 of 12 .25 fluid last);
+  
+
+}
+.sh-quarter-column{
+
+    @include span(3 of 12 .25 fluid);
+  
+
+}
+.sh-quarter-column.last{
+  
+    @include span(3 of 12 .25 fluid last);
+  
+
+}
+.sh-three-quarters-column{
+
+    @include span(9 of 12 .25 fluid);
+  
+
+}
+.sh-three-quarters-column.last{
+  
+    @include span(9 of 12 .25 fluid last);
+  
+
+}
+
+.entry-content{
+  @include breakpoint($small-screens) {
+      .sh-half-column,.sh-third-column,.sh-quarter-column,.sh-three-quarters-column{
+          @include span(12 of 12 .25 fluid);
+      }
+  }
+
+
+}
+

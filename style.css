@@ -1143,6 +1143,65 @@ $smallmax-screens Breakpoint
     margin-right: -100%; } }
 
 /*--------------------------------------------------------------
+Shortcodes
+--------------------------------------------------------------*/
+.entry-content {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .entry-content:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.sh-half-column {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-half-column.last {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0; }
+
+.sh-third-column {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-third-column.last {
+  width: 32.20339%;
+  float: right;
+  margin-right: 0; }
+
+.sh-quarter-column {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-quarter-column.last {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0; }
+
+.sh-three-quarters-column {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-three-quarters-column.last {
+  width: 74.57627%;
+  float: right;
+  margin-right: 0; }
+
+@media (max-width: 480px) {
+  .entry-content .sh-half-column, .entry-content .sh-third-column, .entry-content .sh-quarter-column, .entry-content .sh-three-quarters-column {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+/*--------------------------------------------------------------
 14.1 header
 --------------------------------------------------------------*/
 .site-header {

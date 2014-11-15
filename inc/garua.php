@@ -84,4 +84,50 @@ function garua_testAction() {
 add_action( 'testGarua', 'garua_testAction' );
 
 
+function panelBackgroundColor($color){
+	if($color!='transparent'){
+		$outputPanel ='garua-panel';
+	}else{
+		$outputPanel = '';
+	}
+	return $outputPanel;
+}
 
+// Add Shortcode
+function garua_columns_sh( $atts , $content = null ) {
+
+	// Attributes
+	$a = shortcode_atts(
+		array(
+			'column'=>'12/12',
+			'last' => 'no',
+			'panel'=> 'transparent'
+		), $atts );
+	if($a['column']=='1/2'){
+		$outputClass = 'sh-half-column';
+
+	}elseif ($a['column']=='1/3') {
+		$outputClass = 'sh-third-column';
+	}elseif ($a['column']=='1/4') {
+		$outputClass = 'sh-quarter-column';
+	}elseif ($a['column']=='3/4') {
+		$outputClass = 'sh-three-quarters-column';
+	
+	}else{
+		$outputClass= 'sh-full-width';
+	}
+
+	if ($a['last']!='no'){
+	
+		$outputClass= $outputClass .' last';
+	}
+	$outputPanel= panelBackgroundColor($a['panel']);
+		
+	
+	return '<div class="' . esc_attr($outputClass) . ' '. esc_attr($outputPanel) .'" style="background-color:'.esc_attr($a['panel']).';">' . $content . '</div>';
+}
+add_shortcode( 'grid', 'garua_columns_sh' );
+
+remove_filter( 'the_content', 'wpautop' );
+add_filter( 'the_content', 'wpautop', 99 );
+add_filter( 'the_content', 'shortcode_unautop', 100 );

@@ -1,0 +1,32 @@
+
+.entry-content{
+	@include container(100% center fluid);
+
+}
+.sh-half-column{
+	span{
+		@include span(6 of 12 .25 fluid);
+	}
+
+}
+
+.sh-half-column.last{
+	span{
+		@include span(6 of 12 .25 fluid last);
+	}
+
+}
+
+
+.sh-third-column{
+	span{
+		@include span(4 of 12 .25 fluid);
+	}
+
+}
+.sh-third-column.last{
+	span{
+		@include span(4 of 12 .25 fluid last);
+	}
+
+}
