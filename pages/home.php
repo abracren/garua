@@ -103,33 +103,7 @@ Template Name: Home
 			
 			
 		</ul>
-		<ul class="brands-container brands-3">
-			
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-				
-
-			
-			
-			
-		</ul>
-		<ul class="brands-container brands-2">
-			
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					<li><img src="//placehold.it/200x50&text=Brand"/></li>
-					
-				
-
-			
-			
-			
-		</ul>
+		
 
 
 	</div>
@@ -141,9 +115,18 @@ Template Name: Home
 	<div class="footer-credits-wrap">
 		
 		<ul class="footer-credits-container">
-			<li class="item">a</li>
-			<li class="item">a</li>
-			<li class="item last">a</li>
+			<li class="item">
+				<div class="item-title"><h5>We are here for your convenience</h5></div>
+				<div class="item-content"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>
+			</li>
+			<li class="item">
+				<div class="item-title"><h5>We are here for your convenience</h5></div>
+				<div class="item-content"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>
+			</li>
+			<li class="item last">
+				<div class="item-title"><h5>We are here for your convenience</h5></div>
+				<div class="item-content"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>
+			</li>
 			
 		</ul>
 

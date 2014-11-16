@@ -21,12 +21,23 @@ $fullwidth: 1400px;
 $susy:(gutters: 0);
 #content {
     @include container($gridSizeMine center fluid);
-    #primary {
+    .garua-sidebar {
         @include span(8 of 12);
+    }
+    .garua-full {
+        @include span(12 of 12 last);
+    }
+    .garua-one-column-center{
+       @include span(8 of 12);
+       @include center-block;
+       float:none;
+
+
     }
     #secondary {
         @include span(4 of 12 last);
     }
+
 }
 
 .inside-container{
@@ -399,14 +410,42 @@ $susy:(gutters: .25, columns: 12);
   @include container(100% center fluid);
 
 }
-.sh-half-column{
+
+.sh-one-column{
+ 
+    @include span(1 of 12 .25 fluid);
+  
+
+}
+
+.sh-one-column.last{
+
+    @include span(1 of 12 .25 fluid last);
+  
+}
+
+.sh-two-column{
+ 
+    @include span(2 of 12 .25 fluid);
+  
+
+}
+
+.sh-two-column.last{
+
+    @include span(2 of 12 .25 fluid last);
+  
+}
+
+
+.sh-half-column,.sh-six-column{
  
     @include span(6 of 12 .25 fluid);
   
 
 }
 
-.sh-half-column.last{
+.sh-half-column.last,.sh-six-column.last{
 
     @include span(6 of 12 .25 fluid last);
   
@@ -414,43 +453,100 @@ $susy:(gutters: .25, columns: 12);
 }
 
 
-.sh-third-column{
+.sh-third-column,.sh-four-column{
 
     @include span(4 of 12 .25 fluid);
   
 
 }
-.sh-third-column.last{
+.sh-third-column.last,.sh-four-column.last{
   
     @include span(4 of 12 .25 fluid last);
   
 
 }
-.sh-quarter-column{
+.sh-quarter-column,.sh-three-column{
 
     @include span(3 of 12 .25 fluid);
   
 
 }
-.sh-quarter-column.last{
+.sh-quarter-column.last,.sh-three-column.last{
   
     @include span(3 of 12 .25 fluid last);
   
 
 }
-.sh-three-quarters-column{
+
+.sh-seven-column{
+ 
+    @include span(7 of 12 .25 fluid);
+  
+
+}
+
+.sh-seven-column.last{
+
+    @include span(7 of 12 .25 fluid last);
+  
+}
+
+
+.sh-eight-column{
+ 
+    @include span(8 of 12 .25 fluid);
+  
+
+}
+
+.sh-eight-column.last{
+
+    @include span(8 of 12 .25 fluid last);
+  
+}
+
+.sh-three-quarters-column,.sh-nine-column{
 
     @include span(9 of 12 .25 fluid);
   
 
 }
-.sh-three-quarters-column.last{
+.sh-three-quarters-column.last,.sh-nine-column.last{
   
     @include span(9 of 12 .25 fluid last);
   
 
 }
+.sh-ten-column{
+ 
+    @include span(10 of 12 .25 fluid);
+  
 
+}
+
+.sh-ten-column.last{
+
+    @include span(10 of 12 .25 fluid last);
+  
+}
+.sh-eleven-column{
+ 
+    @include span(11 of 12 .25 fluid);
+  
+
+}
+
+.sh-eleven-column.last{
+
+    @include span(11 of 12 .25 fluid last);
+  
+}
+
+.sh-twelve-column.last{
+
+    @include span(12 of 12 last);
+  
+}
 .entry-content{
   @include breakpoint($small-screens) {
       .sh-half-column,.sh-third-column,.sh-quarter-column,.sh-three-quarters-column{

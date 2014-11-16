@@ -10,7 +10,7 @@ Template Name: Blog-sidebar
 
 get_header(); ?>
 
-	<div id="primary" class="content-area equalheight">
+	<div id="primary" class="content-area garua-sidebar equalheight">
 		<main id="main" class="site-main" role="main">
 		<?php $args = array(  'posts_per_page' => 10 );?>
 		<?php query_posts($args); ?>

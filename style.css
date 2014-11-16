@@ -151,33 +151,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 48px;
-  font-size: 3em;
-  line-height: 1.25; }
+  font-size: 3em; }
 
 h2 {
   font-size: 36px;
-  font-size: 2.25em;
-  line-height: 1.1666; }
+  font-size: 2.25em; }
 
 h3 {
   font-size: 28px;
-  font-size: 1.75em;
-  line-height: 1.2857; }
+  font-size: 1.75em; }
 
 h4 {
   font-size: 24px;
-  font-size: 1.5em;
-  line-height: 1.25; }
+  font-size: 1.5em; }
 
 h5 {
-  font-size: 16px;
-  font-size: 1em;
-  line-height: 1.25; }
+  font-size: 20px;
+  font-size: 1.2em; }
 
 h6 {
   font-size: 14px;
-  font-size: .875em;
-  line-height: 1.2142; }
+  font-size: .875em; }
+
+p {
+  font-size: 14px;
+  font-size: .875em; }
 
 p {
   margin-bottom: 1.5em; }
@@ -727,9 +725,19 @@ object {
     content: " ";
     display: block;
     clear: both; }
-  #content #primary {
+  #content .garua-sidebar {
     width: 66.66667%;
     float: left; }
+  #content .garua-full {
+    width: 100%;
+    float: right;
+    margin-right: 0; }
+  #content .garua-one-column-center {
+    width: 66.66667%;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    float: none; }
   #content #secondary {
     width: 33.33333%;
     float: right;
@@ -1213,43 +1221,108 @@ Shortcodes
     display: block;
     clear: both; }
 
-.sh-half-column {
+.sh-one-column {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-one-column.last {
+  width: 6.77966%;
+  float: right;
+  margin-right: 0; }
+
+.sh-two-column {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-two-column.last {
+  width: 15.25424%;
+  float: right;
+  margin-right: 0; }
+
+.sh-half-column, .sh-six-column {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%; }
 
-.sh-half-column.last {
+.sh-half-column.last, .sh-six-column.last {
   width: 49.15254%;
   float: right;
   margin-right: 0; }
 
-.sh-third-column {
+.sh-third-column, .sh-four-column {
   width: 32.20339%;
   float: left;
   margin-right: 1.69492%; }
 
-.sh-third-column.last {
+.sh-third-column.last, .sh-four-column.last {
   width: 32.20339%;
   float: right;
   margin-right: 0; }
 
-.sh-quarter-column {
+.sh-quarter-column, .sh-three-column {
   width: 23.72881%;
   float: left;
   margin-right: 1.69492%; }
 
-.sh-quarter-column.last {
+.sh-quarter-column.last, .sh-three-column.last {
   width: 23.72881%;
   float: right;
   margin-right: 0; }
 
-.sh-three-quarters-column {
+.sh-seven-column {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-seven-column.last {
+  width: 57.62712%;
+  float: right;
+  margin-right: 0; }
+
+.sh-eight-column {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-eight-column.last {
+  width: 66.10169%;
+  float: right;
+  margin-right: 0; }
+
+.sh-three-quarters-column, .sh-nine-column {
   width: 74.57627%;
   float: left;
   margin-right: 1.69492%; }
 
-.sh-three-quarters-column.last {
+.sh-three-quarters-column.last, .sh-nine-column.last {
   width: 74.57627%;
+  float: right;
+  margin-right: 0; }
+
+.sh-ten-column {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-ten-column.last {
+  width: 83.05085%;
+  float: right;
+  margin-right: 0; }
+
+.sh-eleven-column {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.sh-eleven-column.last {
+  width: 91.52542%;
+  float: right;
+  margin-right: 0; }
+
+.sh-twelve-column.last {
+  width: 100%;
   float: right;
   margin-right: 0; }
 
@@ -1415,7 +1488,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .headings-frontpage-wrap {
   clear: both;
-  padding-bottom: 1.5em; }
+  padding: 1.5em 0; }
   .headings-frontpage-wrap .headings-frontpage-container {
     margin-top: 25px; }
     .headings-frontpage-wrap .headings-frontpage-container li {
@@ -1426,7 +1499,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.4em; }
 
 .blog-advance {
-  padding-bottom: 1.5em;
+  padding: 1.5em 0;
   clear: both; }
   .blog-advance li {
     padding: 10px;
@@ -1446,7 +1519,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100px; }
 
 .grids-wrap {
-  padding-bottom: 1.5em; }
+  padding: 1.5em 0; }
   .grids-wrap .frontpage-grid-top {
     margin-bottom: 18px; }
   .grids-wrap .item img {
@@ -1463,7 +1536,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-wrap {
   background-color: #fff000;
-  padding-bottom: 1.5em; }
+  padding: 1.5em 0; }
   .portfolio-wrap .portfolio-grid {
     margin-bottom: 0px; }
     .portfolio-wrap .portfolio-grid li {
@@ -1471,36 +1544,39 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center; }
 
 .brands-wrap {
-  background-color: #333;
-  padding: 100px 0 50px 0; }
+  background-color: #cccccc;
+  padding: 70px 0; }
   .brands-wrap .brands-container li {
     display: inline-block;
     text-align: center; }
 
 .footer-goup-wrap {
-  background-color: #fff;
-  max-height: 80px; }
+  background-color: #333;
+  max-height: 50px; }
   .footer-goup-wrap span {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #333;
     text-align: center;
     padding-top: 37px;
     display: block;
     position: relative;
     top: -50px;
+    color: #fff;
     display: block;
     margin: 0 auto; }
 
 .footer-credits-wrap {
   clear: both;
-  background-color: #fff;
+  background-color: #333;
   min-height: 50px; }
   .footer-credits-wrap .footer-credits-container li {
-    background-color: #ddd;
+    background-color: transparent;
     display: inline-block;
-    text-align: center; }
+    color: #aaa; }
+    .footer-credits-wrap .footer-credits-container li .item-title {
+      margin-bottom: 12px; }
 
 /*--------------------------------------------------------------
 14.7 Slider
