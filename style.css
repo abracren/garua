@@ -465,7 +465,7 @@ a {
     text-align: center;
     font-size: .9em;
     height: 100%;
-    padding: 12px; }
+    padding-top: 12px; }
 
 /* Small menu */
 .menu-toggle {
@@ -1160,6 +1160,32 @@ $small-screens Breakpoint
     margin-right: 0; } }
 
 @media (max-width: 480px) {
+  .header-container .site-branding {
+    width: 8.33333%;
+    float: left; }
+  .header-container nav {
+    clear: both;
+    width: 100% !important;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .header-container nav:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    .header-container nav .menu-main-menu-container {
+      height: 0 !important; }
+    .header-container nav ul {
+      position: relative !important;
+      clear: both;
+      width: 100% !important; }
+      .header-container nav ul li {
+        clear: both;
+        width: 100% !important; }
+        .header-container nav ul li a {
+          width: 100%; } }
+
+@media (max-width: 480px) {
   .frontpage-grid-top {
     margin-bottom: 0; }
     .frontpage-grid-top .item {
@@ -1181,6 +1207,32 @@ $small-screens Breakpoint
 /*--------------------------------------------------------------
 $smallmax-screens Breakpoint
 --------------------------------------------------------------*/
+@media (min-width: 481px) and (max-width: 640px) {
+  .header-container .site-branding {
+    width: 8.33333%;
+    float: left; }
+  .header-container nav {
+    clear: both;
+    width: 100% !important;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .header-container nav:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    .header-container nav .menu-main-menu-container {
+      height: 0 !important; }
+    .header-container nav ul {
+      position: relative !important;
+      clear: both;
+      width: 100% !important; }
+      .header-container nav ul li {
+        clear: both;
+        width: 100% !important; }
+        .header-container nav ul li a {
+          width: 100%; } }
+
 @media (min-width: 481px) and (max-width: 640px) {
   .frontpage-grid-top .item1 {
     width: 57.14286%;
@@ -1342,6 +1394,21 @@ Shortcodes
   .site-header nav {
     font-size: .9em;
     position: relative; }
+    .site-header nav button {
+      background-color: #000;
+      text-shadow: none;
+      color: #fff;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+      width: 100%;
+      min-height: 40px;
+      font-size: 1.2em; }
+      .site-header nav button i {
+        position: absolute;
+        right: 16px;
+        font-size: 1.5em;
+        top: 7px; }
     .site-header nav .menu-main-menu-container {
       height: 73px; }
       .site-header nav .menu-main-menu-container #menu-main-menu {

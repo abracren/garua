@@ -333,6 +333,33 @@ $susy:(gutters: 0, columns: 12);
     }
 }
 
+.header-container {
+    @include breakpoint($small-screens) {
+        .site-branding {
+            @include span(1);
+        }
+        nav {
+            clear: both;
+            width: 100%!important;
+            @include container( 100% center fluid rtl );
+            .menu-main-menu-container{
+            height: 0!important;
+            }
+            ul{
+                position: relative!important;
+                clear: both;
+                width:100%!important;
+                li{
+                    clear:both;
+                    width:100%!important;
+                    a{
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}
 
 .frontpage-grid-top {
     @include breakpoint($small-screens) {
@@ -362,6 +389,37 @@ $susy:(gutters: 0, columns: 12);
 /*--------------------------------------------------------------
 $smallmax-screens Breakpoint
 --------------------------------------------------------------*/
+.header-container {
+    @include breakpoint($smallmax-screens) {
+        .site-branding {
+            @include span(1);
+        }
+
+        nav {
+            clear: both;
+            width: 100%!important;
+            @include container( 100% center fluid rtl );
+            .menu-main-menu-container{
+            height: 0!important;
+            }
+            ul{
+                position: relative!important;
+                clear: both;
+                width:100%!important;
+                li{
+                    clear:both;
+                    width:100%!important;
+                    a{
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
 $susy:(gutters: .25, columns: 7 5, output:isolate);
 .frontpage-grid-top {
     @include breakpoint($smallmax-screens){

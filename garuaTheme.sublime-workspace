@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"out",
+				"outputClass"
+			],
+			[
+				"output",
+				"outputPanel"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
 				"backgr",
 				"background-position"
 			],
@@ -22,10 +66,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"update",
@@ -56,10 +96,6 @@
 				"sanitize_key"
 			],
 			[
-				"ma",
-				"match2"
-			],
-			[
 				"post",
 				"post_id"
 			],
@@ -84,10 +120,6 @@
 				"padding-top"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"background",
 				"background-color"
 			],
@@ -98,10 +130,6 @@
 			[
 				"bal",
 				"background-color"
-			],
-			[
-				"pa",
-				"padding-left"
 			],
 			[
 				"blo",
@@ -164,28 +192,12 @@
 				"text-align"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
 				"BA",
 				"background-color"
 			],
 			[
 				"borde",
 				"border"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"font-",
@@ -502,18 +514,6 @@
 			[
 				"the_c",
 				"the_content"
-			],
-			[
-				"genesis_after",
-				"genesis_after_content"
-			],
-			[
-				"get_tem",
-				"get_template_directory_uri"
-			],
-			[
-				"the",
-				"the_title"
 			]
 		]
 	},
@@ -523,47 +523,45 @@
 			"file": "inc/garua.php",
 			"settings":
 			{
-				"buffer_size": 2718,
+				"buffer_size": 3872,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 5630,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "<?php\n/*\nTemplate Name: Home \n*/\n\n?>\n\n<?php get_header(); ?>\n</div> <!-- End main page -->\n\n<div class=\"frontpage\">\n\n	<div class=\"slider-wrap\" >\n		<!-- <div id=\"owl-example\" class=\" slider-container  owl-carousel\"> -->\n		<div id=\"owl-slider-frontpage\" class=\"slider-fullwidth-container owl-carousel\">\n			<div><img src=\"//garua.dev/images/1900x500.gif\"/></div>\n			<div><img src=\"//garua.dev/images/1900x500.gif\"/></div>\n			<div><img src=\"//garua.dev/images/1900x500.gif\"/></div>\n			<div><img src=\"//garua.dev/images/1900x500.gif\"/></div>\n	\n		</div><!-- End>> owl-slider -->\n    </div><!-- End>> slider-wrap -->\n\n\n	<div class=\"headings-frontpage-wrap\">\n		<ul class=\"headings-frontpage-container\">\n			<li class=\"heading1 item\"> \n				<img></img>\n				<h2>Title</h2>\n				<p>Description</p>\n			</li>\n			<li class=\"heading2 item\"> \n				<img></img>\n				<h2>Title</h2>\n				<p>Description</p>\n			</li>\n			<li class=\"heading3 item last\"> \n				<img></img>\n				<h2>Title</h2>\n				<p>Description</p>\n			</li>\n		</ul><!-- End>> headings-container -->\n	</div><!-- End>> eadings-wrap -->\n\n	<div class=\"grids-wrap\">\n		<div class=\"inside-container\">\n			<h2>Grids</h2>\n		</div>\n		<ul class=\"frontpage-grid-top\">\n			<li class=\"item1 item\" style=\"background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;\">\n			</li>\n			<li class=\"item2 item\" style=\"background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;\">\n			</li>\n			<li class=\"item3 item \" style=\"background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;\">\n			</li>\n		</ul><!-- End>> frontpage-grid-top -->\n\n		 \n		<ul class=\"frontpage-grid-bottom\">\n			\n			<li class=\"item1 item\" style=\"background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;\">\n			</li>\n			<li class=\"item2 item \" style=\"background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;\">\n			</li>\n			<li class=\"item3 item\" style=\"background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;\">\n			</li>\n		</ul><!-- End>> frontpage-grid-bottom -->\n	</div><!-- End>> grids-wrap -->\n\n	<div class=\"portfolio-wrap\">\n		<div class=\"inside-container\">\n			<h2>Portfolio</h2>\n		</div>\n		<ul class=\"portfolio-grid portfolio-4-col\">\n\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n			<li><img src=\"//garua.dev/images/250_2.gif\"/></li>\n		</ul><!-- End>> portfolio-grid -->\n		\n	</div><!-- End>> portfolio-wrap -->\n\n	<div class=\"brands-wrap\">\n		<ul class=\"brands-container brands-4\">\n			\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n					<li><img src=\"//placehold.it/200x50&text=Brand\"/></li>\n				\n\n			\n			\n			\n		</ul>\n		\n\n\n	</div>\n	<div class=\"footer-goup-wrap\">\n		\n			<span> go-up </span>\n	\n	</div>\n	<div class=\"footer-credits-wrap\">\n		\n		<ul class=\"footer-credits-container\">\n			<li class=\"item\">\n				<div class=\"item-title\"><h5>We are here for your convenience</h5></div>\n				<div class=\"item-content\"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>\n			</li>\n			<li class=\"item\">\n				<div class=\"item-title\"><h5>We are here for your convenience</h5></div>\n				<div class=\"item-content\"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>\n			</li>\n			<li class=\"item last\">\n				<div class=\"item-title\"><h5>We are here for your convenience</h5></div>\n				<div class=\"item-content\"><p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, luctus, metus. Lorem ipsum dolor sit amet, consectetur eu vulputate magna eros eu erat.</p></div>\n			</li>\n			\n		</ul>\n\n\n	</div>\n	\n	\n</div><!-- End>> frontpage -->\n\n\n\n<!-- <h2>testAjax</h2>\n		\n		<form id=\"mxd-form\" action=\"\" method=\"POST\">\n			<div>\n				<input type=\"submit\" name=\"mxd-submit\" id=\"mxd_submit\" class=\"button-primary\" value=\"<?php _e('get Ajax Response', 'garua'); ?>\"/>\n				<img src=\"<?php echo admin_url('/images/wpspin_light.gif'); ?>\" class=\"waiting\" id=\"mxd_loading\" style=\"display:none;\"/>\n			</div>\n		</form>\n		<div id=\"mxd_results\"> </div> -->\n<?php\n//do_action( 'testGarua' );\n//do_action( 'addJsAjax' );\n?>\n\n\n\n<?php get_footer(); ?>\n<div class=\"garuafw_debug\">\n	<div id=\"accordion\">\n\n		<h4 class=\"accordion-toggle\">DEBUG</h4>\n		<div class=\"accordion-content\">\n			<?php\n			if($garuafw_debug){\n			$options = get_option( 'garuafw_settings' );\n			echo '<pre>';\n			print_r($options);\n			echo '</pre>' ;\n			//echo $options[garuafw_text_field_0];\n			}\n			?>\n		</div>\n	</div>\n</div>\n\n\n<script type=\"text/javascript\">\nvar ajaxurl = '<?php echo admin_url('admin-ajax.php'); ?>';\n\n\n$(document).ready(function() {\n \n  $(\"#owl-slider-frontpage\").owlCarousel({\n  	loop:true,\n  	 items:1,\n     nav:false,\n     autoplay:true,\n     autoplayTimeout:1000,\n     autoplayHoverPause:true,\n\n\n      \n\n  	});\n $('#accordion').find('.accordion-toggle').click(function(){\n\n      //Expand or collapse this panel\n      $(this).next().slideToggle('slow');\n\n      //Hide the other panels\n      $(\".accordion-content\").not($(this).next()).slideUp('slow');\n\n    });\n});\n\n</script>\n\n\n",
 			"file": "pages/home.php",
+			"file_size": 5885,
+			"file_write_time": 130605657910000000,
 			"settings":
 			{
-				"buffer_size": 2587,
+				"buffer_size": 5886,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "bower_components/OwlCarousel/owl-carousel/owl.theme.css",
-			"settings":
-			{
-				"buffer_size": 1664,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bower_components/OwlCarousel/owl-carousel/owl.carousel.css",
-			"settings":
-			{
-				"buffer_size": 1459,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "/*\nTheme Name: garua\nTheme URI: http://underscores.me/\nAuthor: Automattic\nAuthor URI: http://automattic.com/\nDescription: Hi. I'm a starter theme called <code>garua</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.\nVersion: 1.1\nLicense: GNU General Public License v2 or later\nLicense URI: http://www.gnu.org/licenses/gpl-2.0.html\nText Domain: garua\nTags:\n\nThis theme, like WordPress, is licensed under the GPL.\nUse it to make something cool, have fun, and share what you've learned with others.\n\n garua is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.\n\nResetting and rebuilding styles have been helped along thanks to the fine work of\nEric Meyer http://meyerweb.com/eric/tools/css/reset/index.html\nalong with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/\nand Blueprint http://www.blueprintcss.org/\n*/\n\n/*--------------------------------------------------------------\n>>> TABLE OF CONTENTS:\n----------------------------------------------------------------\n1.0 Reset\n2.0 Typography\n3.0 Elements\n4.0 Forms\n5.0 Navigation\n	5.1 Links\n	5.2 Menus\n6.0 Accessibility\n7.0 Alignments\n8.0 Clearings\n9.0 Widgets\n10.0 Content\n	10.1 Posts and pages\n	10.2 Asides\n	10.3 Comments\n11.0 Infinite scroll\n12.0 Media\n	12.1 Captions\n	12.2 Galleries\n--------------------------------------------------------------*/\n$link-color: #ff0000; \n$secondary-link-color: #000033;\n$body-font-color:#000;\n$background-color: #fafafa;\n$content-background-color:#fafafa;\n$menu-hover:#aaa;\n$menu-child-bg:#ffffff;\n\n/*--------------------------------------------------------------\nBreakpoints\n--------------------------------------------------------------*/\n\n// assume min-width (by default) if only a number\n//$high-tide: 500px;\n// set min-width/max-width if both values are numbers\n//$ex-presidents: 600px 800px;\n// if one value is a string, assume a feature/value pair\n//$surfboard-width: max-width 1000px;\n// string tests together within parentheses, assume each item is a feature value pair\n//$surfboard-height: (min-height 1000px) (orientation portrait);\n\n$small-screens: max-width 480px; \n$smallmax-screens: 481px 640px;\n$medium-screens: min-width 641px; \n$large-screens: min-width 1025px;\n$xlarge-screens:  min-width 1441px;\n$xxlarge-screens: min-width 1921px;\n\n\n\n@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);\n@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);\n\n@import \"variables-site/variables-site\";\n@import \"mixins/mixins-master\";\n\n/*--------------------------------------------------------------\n1.0 Reset\n--------------------------------------------------------------*/\n@import \"reset\";\n\n/*--------------------------------------------------------------\n2.0 Typography\n--------------------------------------------------------------*/\n@import \"typography/typography\";\n\n/*--------------------------------------------------------------\n3.0 Elements\n--------------------------------------------------------------*/\n@import \"elements/elements\";\n\n/*--------------------------------------------------------------\n4.0 Forms\n--------------------------------------------------------------*/\n@import \"forms/forms\";\n\n/*--------------------------------------------------------------\n5.0 Navigation\n--------------------------------------------------------------*/\n@import \"navigation/navigation\";\n\n/*--------------------------------------------------------------\n6.0 Accessibility\n--------------------------------------------------------------*/\n@import \"modules/accessibility\";\n\n/*--------------------------------------------------------------\n7.0 Alignments\n--------------------------------------------------------------*/\n@import \"modules/alignments\";\n\n/*--------------------------------------------------------------\n8.0 Clearings\n--------------------------------------------------------------*/\n@import \"modules/clearings\";\n\n/*--------------------------------------------------------------\n9.0 Widgets\n--------------------------------------------------------------*/\n@import \"site/secondary/widgets\";\n\n/*--------------------------------------------------------------\n10.0 Content\n--------------------------------------------------------------*/\n@import \"site/site\";\n\n/*--------------------------------------------------------------\n11.0 Infinite scroll\n--------------------------------------------------------------*/\n@import \"modules/infinite-scroll\";\n\n/*--------------------------------------------------------------\n12.0 Media\n--------------------------------------------------------------*/\n@import \"media/media\";\n\n@mixin center($columns, $context: $total-columns) {\n  width: columns($columns, $context);\n  margin: 0 auto;\n}\n@import \"susy\";\n@import \"../bower_components/breakpoint-sass/stylesheets/breakpoint\";\n//@import \"bower_components/font-awesome/css/font-awesome.min.css\";\n\n\n@import \"responsive/susyLayouts\"; \n@import \"template-parts/template-parts\"; \n//@import \"\";\n//@import \"../bower_components/OwlCarousel/owl-carousel/owl.carousel.css\";\n\n\n//helpers\n\n%visuallyhidden {\n  margin: -1px;\n  padding: 0;\n  width: 1px;\n  height: 1px;\n  overflow: hidden;\n  clip: rect(0 0 0 0);\n  clip: rect(0, 0, 0, 0);\n  position: absolute;\n}\n.visually-hidden {\n  @extend %visuallyhidden;\n}\n@mixin center-block {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n\n\n\n\n//debug\n.garuafw_debug{\n	background-color: #ddd;\n\n}\n.accordion-toggle {cursor: pointer;margin: 0;}\n.accordion-content {display: none;}\n.accordion-content.default {display: none;}\n.accordion-toggle{\n  	background-color: #218E15;\n  	color:#fff;\n	padding: 10px;\n	font-size: 20px;\n	border-bottom: 1px solid #aaa;\n}\n\n",
 			"file": "sass/style.scss",
+			"file_size": 5865,
+			"file_write_time": 130605961280000000,
 			"settings":
 			{
-				"buffer_size": 4309,
+				"buffer_size": 5866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/typography/_headings.scss",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/template-parts/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 129,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +569,18 @@
 			"file": "sass/responsive/_susyLayouts.scss",
 			"settings":
 			{
-				"buffer_size": 1909,
+				"buffer_size": 9890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n/**\nTemplate Name: Blog Right Sidebar \n *\n * Sidebar Blog Template .\n *\n * @package garua\n */\n\n\nget_header(); ?>\n\n	<div id=\"primary\" class=\"content-area garua-sidebar equalheight\">\n		<main id=\"main\" class=\"site-main\" role=\"main\">\n		<?php $args = array(  'posts_per_page' => 10 );?>\n		<?php query_posts($args); ?>\n\n		<?php if ( have_posts() ) : ?>\n			<?php while ( have_posts() ) : the_post(); ?>\n\n				<?php\n					\n					get_template_part( 'content', get_post_format() );\n				?>\n\n			<?php endwhile; ?>\n\n			<?php garua_paging_nav(); ?>\n\n		<?php else : ?>\n\n			<?php get_template_part( 'content', 'none' ); ?>\n\n		<?php endif; ?>\n\n		</main><!-- #main -->\n	</div><!-- #primary -->\n\n<?php get_sidebar(); ?>\n<?php get_footer(); ?>",
+			"file": "pages/blog.php",
+			"file_size": 719,
+			"file_write_time": 130605959100000000,
+			"settings":
+			{
+				"buffer_size": 726,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,23 +588,15 @@
 			"file": "sass/template-parts/_frontpage.scss",
 			"settings":
 			{
-				"buffer_size": 912,
+				"buffer_size": 2489,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/template-parts/_template-parts.scss",
+			"file": "pages/full-width.php",
 			"settings":
 			{
-				"buffer_size": 1299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/template-parts/_slider.scss",
-			"settings":
-			{
-				"buffer_size": 50,
+				"buffer_size": 847,
 				"line_ending": "Unix"
 			}
 		}
@@ -947,15 +948,26 @@
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/bower_components",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/library",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/pages",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts"
 	],
 	"file_history":
 	[
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_lists.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_grids.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/elements/_elements.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/functions.php",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_header.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/_reset.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_slider.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_template-parts.scss",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/bower_components/OwlCarousel/owl-carousel/owl.carousel.css",
+		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/bower_components/OwlCarousel/owl-carousel/owl.theme.css",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/js/ajaxHome.js",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/inc/customizer.php",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/js/customizer.js",
-		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_header.scss",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/languages/es_ES.po",
 		"/Applications/AMPPS/www/wpplug.dev/wp/wp-content/themes/mxdark/functions.php",
 		"/Applications/AMPPS/www/garua.dev/wp-content/themes/garua/sass/template-parts/_content.scss",
@@ -1070,16 +1082,7 @@
 		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/library/js/jquery.stickyNavbar.js",
 		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/sidebar-cursos.php",
 		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/index.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/page-cursos-express.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/content-mainslider.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/nav-topbar.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/header.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/content-blogheader.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/content-blogindexheader.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/archive.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/library/scss/_settings.scss",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/partials/content-expressheaderImagen.php",
-		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/style.css"
+		"/Applications/MAMP/htdocs/padi/wp-content/themes/nl/page-cursos-express.php"
 	],
 	"find":
 	{
@@ -1097,6 +1100,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1.5em",
+			"ul",
+			"24",
+			"margin",
+			"margin-to",
+			"marginr",
+			"marginr-top",
+			"margin-top",
+			"top",
+			"headings",
+			"headin",
+			"clear",
 			"bottom",
 			"css",
 			"mxd",
@@ -1212,19 +1227,7 @@
 			"H6",
 			"WIDGET",
 			"cap",
-			"http://localhost:8888/img/nl/",
-			"url",
-			"border",
-			"class",
-			"font",
-			"86",
-			"85",
-			"magell",
-			"mega",
-			"rgba",
-			"logo",
-			"magell",
-			"magela"
+			"http://localhost:8888/img/nl/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1265,7 +1268,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1274,15 +1277,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2718,
+						"buffer_size": 3872,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2031,
-								2020
+								2822,
+								2822
 							]
 						],
 						"settings":
@@ -1350,203 +1353,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 824.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1165.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/home.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1127,
-								1127
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 751.0,
+						"translation.y": 376.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "bower_components/OwlCarousel/owl-carousel/owl.theme.css",
+					"buffer": 1,
+					"file": "pages/home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1664,
+						"buffer_size": 5886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1664
+								24,
+								24
 							]
 						],
 						"settings":
@@ -1610,384 +1437,31 @@
 								"bh_square_close",
 								"bh_square_content"
 							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "bower_components/OwlCarousel/owl-carousel/owl.carousel.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4264,
-								4264
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1722.0,
+						"translation.y": 544.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "sass/responsive/_susyLayouts.scss",
+					"buffer": 2,
+					"file": "sass/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1909,
+						"buffer_size": 5866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1903,
-								1903
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1362.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sass/template-parts/_frontpage.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								905,
-								905
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 392.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "sass/template-parts/_template-parts.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1291,
-								1291
+								5488,
+								5546
 							]
 						],
 						"settings":
@@ -2054,31 +1528,114 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2428.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "sass/template-parts/_slider.scss",
+					"buffer": 3,
+					"file": "sass/typography/_headings.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50,
+						"buffer_size": 382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
-							],
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
 							[
-								50,
-								50
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/template-parts/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
 							]
 						],
 						"settings":
@@ -2149,6 +1706,360 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/responsive/_susyLayouts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8248,
+								8248
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/blog.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/template-parts/_frontpage.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 678.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "pages/full-width.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
