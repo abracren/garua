@@ -1415,7 +1415,7 @@ Shortcodes
     margin-right: 0; } }
 
 @media (max-width: 480px) {
-  .sh-one-column, .sh-two-column, .sh-three-column, .sh-four-column, .sh-five-column, .sh-six-column, .sh-seven-column, .sh-eight-column, .sh-nine-column, .sh-ten-column, .sh-eleven-column, .sh-twelve-column {
+  .sh-half-column, .sh-third-column, .sh-quarter-column, .sh-three-quarters-column, .sh-one-column, .sh-two-column, .sh-three-column, .sh-four-column, .sh-five-column, .sh-six-column, .sh-seven-column, .sh-eight-column, .sh-nine-column, .sh-ten-column, .sh-eleven-column, .sh-twelve-column {
     width: 100%;
     float: right;
     margin-right: 0; } }

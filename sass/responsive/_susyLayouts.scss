@@ -636,7 +636,7 @@ $susy:(gutters: .25, columns: 12);
   }
 }
 @include breakpoint($small-screens) {
-        .sh-one-column,.sh-two-column,.sh-three-column, .sh-four-column,.sh-five-column,.sh-six-column,.sh-seven-column,.sh-eight-column , .sh-nine-column, .sh-ten-column,.sh-eleven-column,.sh-twelve-column{
+         .sh-half-column,.sh-third-column,.sh-quarter-column,.sh-three-quarters-column,.sh-one-column,.sh-two-column,.sh-three-column, .sh-four-column,.sh-five-column,.sh-six-column,.sh-seven-column,.sh-eight-column , .sh-nine-column, .sh-ten-column,.sh-eleven-column,.sh-twelve-column{
          @include span(12 of 12  last .25 fluid);
         }
 
