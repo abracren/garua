@@ -361,6 +361,29 @@ $susy:(gutters: 0, columns: 12);
     }
 }
 
+#content {
+    @include container($gridSizeMine center fluid);
+    @include breakpoint($small-screens) {
+        .garua-sidebar {
+            @include span(12 of 12 last);
+        }
+        .garua-full {
+            @include span(12 of 12 last);
+        }
+        .garua-one-column-center{
+            @include span(12 of 12 last);
+           @include center-block;
+           float:none;
+
+
+        }
+        #secondary {
+            clear: both;
+            @include span(12 of 12 last);
+        }
+
+    }
+}
 .frontpage-grid-top {
     @include breakpoint($small-screens) {
         margin-bottom:0;
@@ -607,11 +630,15 @@ $susy:(gutters: .25, columns: 12);
 }
 .entry-content{
   @include breakpoint($small-screens) {
-      .sh-half-column,.sh-third-column,.sh-quarter-column,.sh-three-quarters-column{
-          @include span(12 of 12 .25 fluid);
+     .sh-half-column,.sh-third-column,.sh-quarter-column,.sh-three-quarters-column{
+          @include span(12 of 12  last .25 fluid);
       }
   }
-
+}
+@include breakpoint($small-screens) {
+        .sh-one-column,.sh-two-column,.sh-three-column, .sh-four-column,.sh-five-column,.sh-six-column,.sh-seven-column,.sh-eight-column , .sh-nine-column, .sh-ten-column,.sh-eleven-column,.sh-twelve-column{
+         @include span(12 of 12  last .25 fluid);
+        }
 
 }
 
