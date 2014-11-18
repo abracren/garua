@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home
+Template Name: Home 
 */
 
 ?>
@@ -8,39 +8,25 @@ Template Name: Home
 <?php get_header(); ?>
 </div> <!-- End main page -->
 
+<?php
+$options = get_option( 'garuafw_settings' );
+
+$garuafw_parts = $options[garuafw_frontpage_order_field];
+$garuafw_part =  explode(",", $garuafw_parts);
+
+
+
+ ?>
 <div class="frontpage">
 
-	<div class="slider-wrap" >
-		<!-- <div id="owl-example" class=" slider-container  owl-carousel"> -->
-		<div id="owl-slider-frontpage" class="slider-fullwidth-container owl-carousel">
-			<div><img src="//garua.dev/images/1900x500.gif"/></div>
-			<div><img src="//garua.dev/images/1900x500.gif"/></div>
-			<div><img src="//garua.dev/images/1900x500.gif"/></div>
-			<div><img src="//garua.dev/images/1900x500.gif"/></div>
+<?php 
+foreach ($garuafw_part as $part ) {
+	get_template_part( 'parts/content', $part );
+}
+?>
+
+
 	
-		</div><!-- End>> owl-slider -->
-    </div><!-- End>> slider-wrap -->
-
-
-	<div class="headings-frontpage-wrap">
-		<ul class="headings-frontpage-container">
-			<li class="heading1 item"> 
-				<img></img>
-				<h2>Title</h2>
-				<p>Description</p>
-			</li>
-			<li class="heading2 item"> 
-				<img></img>
-				<h2>Title</h2>
-				<p>Description</p>
-			</li>
-			<li class="heading3 item last"> 
-				<img></img>
-				<h2>Title</h2>
-				<p>Description</p>
-			</li>
-		</ul><!-- End>> headings-container -->
-	</div><!-- End>> eadings-wrap -->
 
 	<div class="grids-wrap">
 		<div class="inside-container">
@@ -162,7 +148,7 @@ Template Name: Home
 		<div class="accordion-content">
 			<?php
 			if($garuafw_debug){
-			$options = get_option( 'garuafw_settings' );
+			
 			echo '<pre>';
 			print_r($options);
 			echo '</pre>' ;
