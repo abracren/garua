@@ -1,0 +1,15 @@
+{
+  "name": "jquery-viewport-checker",
+  "homepage": "https://github.com/dirkgroenen/jQuery-viewport-checker",
+  "version": "1.6.0",
+  "_release": "1.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.6.0",
+    "commit": "21bfd37e3b759af78be644b9368ee76001bc50f9"
+  },
+  "_source": "git://github.com/dirkgroenen/jQuery-viewport-checker.git",
+  "_target": "~1.6.0",
+  "_originalSource": "jquery-viewport-checker",
+  "_direct": true
+}
