@@ -1,0 +1,27 @@
+$link-color: #ff0000; 
+$secondary-link-color: #000033;
+$body-font-color:#000;
+$background-color: #fafafa;
+$content-background-color:#fafafa;
+$menu-hover:#aaa;
+$menu-child-bg:#ffffff;
+
+/*--------------------------------------------------------------
+Breakpoints
+--------------------------------------------------------------*/
+
+// assume min-width (by default) if only a number
+//$high-tide: 500px;
+// set min-width/max-width if both values are numbers
+//$ex-presidents: 600px 800px;
+// if one value is a string, assume a feature/value pair
+//$surfboard-width: max-width 1000px;
+// string tests together within parentheses, assume each item is a feature value pair
+//$surfboard-height: (min-height 1000px) (orientation portrait);
+
+$small-screens: max-width 480px; 
+$smallmax-screens: 481px 640px;
+$medium-screens: min-width 641px; 
+$large-screens: min-width 1025px;
+$xlarge-screens:  min-width 1441px;
+$xxlarge-screens: min-width 1921px;

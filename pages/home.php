@@ -33,22 +33,22 @@ foreach ($garuafw_part as $part ) {
 			<h2>Grids</h2>
 		</div>
 		<ul class="frontpage-grid-top">
-			<li class="item1 item" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
+			<li class="item1 item"data-add="animated garua-visible bounceInLeft FadeIn"  data-offset="300" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
 			</li>
-			<li class="item2 item" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
+			<li class="item2 item"  data-add="animated garua-visible bounceInRight FadeIn"  data-offset="300" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
 			</li>
-			<li class="item3 item " style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
+			<li class="item3 item" data-add="animated garua-visible bounceInRight FadeIn"  data-offset="300" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
 			</li>
 		</ul><!-- End>> frontpage-grid-top -->
 
 		 
 		<ul class="frontpage-grid-bottom">
 			
-			<li class="item1 item" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
+			<li class="item1 item" data-add="animated garua-visible bounceInLeft FadeIn"  data-offset="300" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center ;">
 			</li>
-			<li class="item2 item " style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
+			<li class="item2 item " data-add="animated garua-visible bounceInLeft FadeIn"  data-offset="300" style="background:#fff url('//garua.dev/images/530x250.gif') no-repeat center center;">
 			</li>
-			<li class="item3 item" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
+			<li class="item3 item" data-add="animated garua-visible bounceInRight FadeIn"  data-offset="300" data-repeat="false" style="background:#fff url('//garua.dev/images/530x250.gif')no-repeat center center ;">
 			</li>
 		</ul><!-- End>> frontpage-grid-bottom -->
 	</div><!-- End>> grids-wrap -->

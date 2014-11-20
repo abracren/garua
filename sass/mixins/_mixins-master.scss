@@ -20,3 +20,23 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+@mixin center($columns, $context: $total-columns) {
+  width: columns($columns, $context);
+  margin: 0 auto;
+}
+//helpers
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+.visually-hidden {
+  @extend %visuallyhidden;
+}
+ 
