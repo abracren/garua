@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0-wpcom\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"Project-Id-Version: garua 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/garua\n"
+"POT-Creation-Date: 2014-11-20 09:39:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,9 @@ msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:19
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
 
 #: 404.php:27
@@ -25,7 +27,6 @@ msgid "Most Used Categories"
 msgstr ""
 
 #. translators: %1$s: smiley
-
 #: 404.php:44
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
@@ -124,18 +125,23 @@ msgid "Nothing Found"
 msgstr ""
 
 #: content-none.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
 
 #: content-none.php:28
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
-#: content-page.php:18 content-single.php:20 content.php:22
+#: content-page.php:18 content-single.php:24 content.php:32
 msgid "Pages:"
 msgstr ""
 
@@ -143,33 +149,34 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: content.php:19
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#. translators: %s: Name of current post
+#: content.php:25
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: footer.php:15
+#: footer.php:16
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: footer.php:15
+#: footer.php:16
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: footer.php:17
+#: footer.php:18
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: functions.php:45 header.php:32
+#: functions.php:47 header.php:33
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:80
+#: functions.php:82
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:120
+#: functions.php:135
 msgid "Read More"
-msgstr "" 
+msgstr ""
 
 #: header.php:23
 msgid "Skip to content"
@@ -179,16 +186,41 @@ msgstr ""
 msgid "Page %s"
 msgstr ""
 
+#: inc/garua-editor.php:6
+msgid "Current Weather"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/garua.php:40 inc/template-tags.php:110
+msgid ", "
+msgstr ""
+
+#: inc/garua.php:42
+msgid "%1$s"
+msgstr ""
+
+#: inc/garua.php:49 inc/template-tags.php:118
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/garua.php:49 inc/template-tags.php:118
+msgid "1 Comment"
+msgstr ""
+
+#: inc/garua.php:49 inc/template-tags.php:118
+msgid "% Comments"
+msgstr ""
+
 #: inc/template-tags.php:21
 msgid "Posts navigation"
 msgstr ""
 
 #: inc/template-tags.php:25
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgid "<span class=\"meta-nav\"></span> Older posts"
 msgstr ""
 
 #: inc/template-tags.php:29
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgid "Newer posts <span class=\"meta-nav\"></span>"
 msgstr ""
 
 #: inc/template-tags.php:52
@@ -197,12 +229,16 @@ msgstr ""
 
 #: inc/template-tags.php:55
 msgctxt "Previous post link"
-msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgid ""
+"<span class=\"meta-nav\"><i class=\"fa fa-angle-left\"></i></span>&nbsp;"
+"%title"
 msgstr ""
 
 #: inc/template-tags.php:56
 msgctxt "Next post link"
-msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgid ""
+"%title&nbsp;<span class=\"meta-nav\"><i class=\"fa fa-angle-right\"></i></"
+"span>"
 msgstr ""
 
 #: inc/template-tags.php:82
@@ -215,37 +251,24 @@ msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
-#. translators: used between list items, there is a space after the comma
-
-#: inc/template-tags.php:104 inc/template-tags.php:110
-msgid ", "
-msgstr ""
-
-#: inc/template-tags.php:106
-msgid "Posted in %1$s"
-msgstr ""
-
 #: inc/template-tags.php:112
 msgid "Tagged %1$s"
 msgstr ""
 
-#: inc/template-tags.php:118
-msgid "Leave a comment"
+#: pages/blog.php:10
+msgid "cabecera"
 msgstr ""
 
-#: inc/template-tags.php:118
-msgid "1 Comment"
-msgstr ""
-
-#: inc/template-tags.php:118
-msgid "% Comments"
+#: pages/home.php:131
+msgid "get Ajax Response"
 msgstr ""
 
 #: search.php:16
 msgid "Search Results for: %s"
 msgstr ""
+
 #. Theme Name of the plugin/theme
-msgid "_s"
+msgid "garua"
 msgstr ""
 
 #. Theme URI of the plugin/theme
@@ -253,7 +276,11 @@ msgid "http://underscores.me/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgid ""
+"Hi. I'm a starter theme called <code>garua</code>, or <em>underscores</em>, "
+"if you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
 msgstr ""
 
 #. Author of the plugin/theme
@@ -262,4 +289,16 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "http://automattic.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog-sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full-Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home"
 msgstr ""

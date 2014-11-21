@@ -170,9 +170,172 @@ require get_template_directory() . '/inc/garua.php';
  * Add Post Thumbnails - Featured Images
  */
 
+require get_template_directory() . '/inc/garua-editor.php';
+
 add_theme_support( 'post-thumbnails' );
 
 //add_image_size('post-header-image', 960, 300, true);
 
+function garua_page_template_dropdown(  ) {
+   
+}
+add_filter('page_template_dropdown_items','garua_page_template_dropdown');
 
+
+add_action('admin_init', 'pietergoosen_add_cpt_meta_box');
+
+function pietergoosen_add_cpt_meta_box(){   
+    $post_id = isset( $_GET['post'] ) ? $_GET['post'] : 0 ;
+    if($post_id) { 
+        $template_file = get_post_meta($post_id,'_wp_page_template',TRUE);
+        if ($template_file == 'page-cpt.php') { 
+            add_meta_box('cpt_meta_box', __( 'Page of Posts with the same name', 'pietergoosen' ), 'pietergoosen_cpt_meta_options', 'page', 'side', 'core');
+        } else {
+            $meta = get_post_meta($post_id, '_cpt_post_type', true);
+            if( $meta ) {
+                pietergoosen_cpt_update_post_meta($post_id, '_cpt_post_type', '');
+                pietergoosen_cpt_update_post_meta($post_id, '_cpt_order_by', '');
+                pietergoosen_cpt_update_post_meta($post_id, '_cpt_asc', '');
+                pietergoosen_cpt_update_post_meta($post_id, '_cpt_post_count', '');
+                remove_meta_box( 'cpt_meta_box', 'page', 'side');
+            }
+        }
+    }
+    add_action('save_post', 'pietergoosen_cpt_update_post_meta_box');
+}
+
+function pietergoosen_cpt_meta_options(){
+
+    $post_id =  !empty($_GET['post']) ? $_GET['post'] : 0;
+    if( !$post_id ) return;
+
+    $template_file = get_post_meta($post_id,'_wp_page_template',TRUE);
+    if ($template_file != 'page-cpt.php') return;
+
+    global $order_list,$post_styles,$sort;
+    $categories = get_categories();
+
+    //Check if we have values
+    $post_meta=array();
+    $post_meta = get_post_meta( $post_id,false );
+
+    $posttype = isset( $post_meta['_cpt_post_type'] ) ? $post_meta['_cpt_post_type'][0] : 1;
+    $order_by = isset( $post_meta['_cpt_order_by'] ) ? $post_meta['_cpt_order_by'][0] : 'date';
+    $asc = isset( $post_meta['_cpt_asc'] ) ? $post_meta['_cpt_asc'][0] : 'DESC';
+    $post_count = isset( $post_meta['_cpt_post_count'] ) ? $post_meta['_cpt_post_count'][0] : get_option('posts_per_page');
+    if(!$post_count || !is_numeric( $post_count )) $post_count = get_option('posts_per_page');
+    ?>
+
+    <!-- Start the meta boxes -->
+    <div class="inside">
+    <p><label><strong><?php _e( 'Custom Post Type', 'pietergoosen' ); ?></strong></label></p>
+    <select id="_cpt_post_type" name="_cpt_post_type">
+<?php 
+    //Custom Post Type List
+    // $args = array(
+    // 'public'   => true,
+    // '_builtin' => false
+    // );
+    $args = array(
+	
+	'post_type'        => 'garua-template',
+	 );
+
+
+    $output = 'names'; // names or objects, note names is the default
+    $operator = 'and'; // 'and' or 'or'
+    $args = array( 'post_type' => 'garua-template');
+    //$post_types = get_post_types( $args, $output, $operator ); 
+    $post_types = get_posts( array( 'post_type' => 'garua-template') );
+    echo '<pre>';
+    print_r($post_types);
+    echo '</pre>';
+
+    foreach ( $post_types  as $post_type => $value) {
+    	echo '<pre>';
+    		print_r($value->post_title);
+    	echo '</pre>';
+    	//echo $value;
+          $selected = ( $value->post_title  == $posttype ) ? ' selected = "selected" ' : '';
+
+          $option = '<option '.$selected .'value="'. $value->post_name;
+          $option = $option .'">';
+          $option = $option . $value->post_title;
+          $option = $option .'</option>';
+          echo $option;
+    };
+
+?>
+    </select>
+	<span style="display:none">
+    <p><label><strong><?php _e( 'Order')?><strong></label></p>
+    <select id="_cpt_asc" name="_cpt_asc">
+<?php 
+
+    $sort = array(
+        'DESC' => array( 'value' => 'DESC','label' => 'Descending' ),
+        'ASC' => array( 'value' => 'ASC','label' => 'Ascending' ),
+    ); 
+
+    foreach ($sort as $output) :
+        $selected = ( $output['value'] == $asc ) ? ' selected = "selected" ' : '';
+        $option = '<option '.$selected .'value="' . $output['value'];
+        $option = $option .'">';
+        $option = $option .$output['label'];
+        $option = $option .'</option>';
+        echo $option;
+    endforeach;
+?>
+    </select>
+
+
+    <p><strong><label><?php _e( 'Posts per Page', 'pageofposts' ); ?><strong></label></p>
+    <input id="_cpt_post_count" name="_cpt_post_count" type="text" value="<?php echo $post_count; ?>" size="3" />
+</span>
+    </div>
+
+    <!-- End page of posts meta box -->
+    <?php
+}
+function pietergoosen_cpt_update_post_meta_box( $post_id ){
+
+    if ( empty( $_POST ) ) {
+        return;
+    } else {
+        $template_file = get_post_meta($post_id,'_wp_page_template',TRUE);
+        if ($template_file != 'page-cpt.php') return;
+
+        if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) {
+            return $post_id;
+        } else {
+            if ( $_POST['post_type'] == 'page' ) {
+                if ( !current_user_can( 'edit_page', $post_id ) )
+                  return $post_id;
+            } else {
+                if ( !current_user_can( 'edit_post', $post_id ) )
+                  return $post_id;
+            }
+            $meta = isset( $_POST['_cpt_post_type'] ) ? $_POST['_cpt_post_type'] : 1;           
+            pietergoosen_cpt_update_post_meta($post_id, '_cpt_post_type', $meta);
+            $meta = isset( $_POST['_cpt_order_by'] ) ? $_POST['_cpt_order_by'] : 'date';            
+            pietergoosen_cpt_update_post_meta($post_id, '_cpt_order_by', $meta);
+            $meta = isset( $_POST['_cpt_asc'] ) ? $_POST['_cpt_asc'] : 'DESC';
+            pietergoosen_cpt_update_post_meta($post_id, '_cpt_asc', $meta);
+            $meta = isset( $_POST['_cpt_post_count'] ) ? $_POST['_cpt_post_count'] : get_option('posts_per_page');
+            pietergoosen_cpt_update_post_meta($post_id, '_cpt_post_count', $meta);
+            return;
+        }
+    }
+}
+
+function pietergoosen_cpt_update_post_meta($post_id, $key, $data) {
+    $post_meta = get_post_meta($post_id, $key, true);
+    if( $data != '' && $post_meta != $data) {
+        update_post_meta($post_id, $key, $data);
+    } elseif ( $post_meta != '' && $data == '' ) {
+        delete_post_meta($post_id, $key);
+    }
+}
+
+?>
 

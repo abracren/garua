@@ -7,6 +7,7 @@ Template Name: Blog-sidebar
  * @package garua
  */
 
+__( 'cabecera', 'garua' );
 
 get_header(); ?>
 

@@ -4,7 +4,7 @@
 $(document).ready(function() {
 	$('.equalheight').matchHeight();
 	
-	$('li').addClass("garua-hidden").viewportChecker();
+	//$('li').addClass("garua-hidden").viewportChecker();
 
 });
 

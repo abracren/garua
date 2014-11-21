@@ -131,3 +131,22 @@ add_shortcode( 'grid', 'garua_columns_sh' );
 remove_filter( 'the_content', 'wpautop' );
 add_filter( 'the_content', 'wpautop', 99 );
 add_filter( 'the_content', 'shortcode_unautop', 100 );
+
+
+
+function add_admin_scripts( $hook ) {
+
+    global $post;
+
+    if ( $hook == 'post-new.php' || $hook == 'post.php' ) {
+        if ( 'garua-template' === $post->post_type ) {     
+            wp_enqueue_script(  'myscript', get_stylesheet_directory_uri().'/js/garua-editor.js' );
+            wp_register_style( 'garua-editor', get_template_directory_uri() . '/css/garua-editor.css', false, '1.0.0' );
+            wp_enqueue_style( 'garua-editor' );
+
+
+        }
+    }
+}
+add_action( 'admin_enqueue_scripts', 'add_admin_scripts', 10, 1 );
+

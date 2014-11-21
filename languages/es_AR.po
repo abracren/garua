@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: garua v1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-11-11 04:50:41+0000\n"
+"PO-Revision-Date: 2014-11-20 09:22:08+0000\n"
 "Last-Translator: admin <arielgkuhn@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -218,18 +218,18 @@ msgstr ""
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: functions.php:45
+#: functions.php:47
 #: header.php:33
 #@ garua
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:80
+#: functions.php:82
 #@ garua
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:120
+#: functions.php:135
 #@ garua
 msgid "Read More"
 msgstr ""
@@ -330,7 +330,7 @@ msgstr ""
 msgid "Tagged %1$s"
 msgstr ""
 
-#: pages/home.php:46
+#: pages/home.php:131
 #@ garua
 msgid "get Ajax Response"
 msgstr ""
@@ -339,5 +339,15 @@ msgstr ""
 #, php-format
 #@ garua
 msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/garua-editor.php:6
+#@ wr_plugin
+msgid "Current Weather"
+msgstr ""
+
+#: pages/blog.php:10
+#@ garua
+msgid "cabecera"
 msgstr ""
 
