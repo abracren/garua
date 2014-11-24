@@ -11,7 +11,7 @@ Template Name: Home
 <?php
 $options = get_option( 'garuafw_settings' );
 
-$garuafw_parts = $options[garuafw_frontpage_order_field];
+$garuafw_parts = $options['garuafw_frontpage_order_field'];
 $garuafw_part =  explode(",", $garuafw_parts);
 
 
@@ -124,18 +124,22 @@ foreach ($garuafw_part as $part ) {
 
 
 
-<!-- <h2>testAjax</h2>
+ <h2>testAjax</h2>
 		
 		<form id="mxd-form" action="" method="POST">
 			<div>
 				<input type="submit" name="mxd-submit" id="mxd_submit" class="button-primary" value="<?php _e('get Ajax Response', 'garua'); ?>"/>
 				<img src="<?php echo admin_url('/images/wpspin_light.gif'); ?>" class="waiting" id="mxd_loading" style="display:none;"/>
+
 			</div>
 		</form>
-		<div id="mxd_results"> </div> -->
+		<a id="testBut" href="#"> test</a></br>
+		<div id="mxd_results"> 
+		<!-- <textarea name="123"></textarea> -->
+		</div> 
 <?php
 //do_action( 'testGarua' );
-//do_action( 'addJsAjax' );
+do_action( 'addJsAjax' );
 ?>
 
 

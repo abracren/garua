@@ -4,7 +4,7 @@
 
 	$options = get_option( 'garuafw_settings' );
 
-	if ($options[garuafw_template_1_slider_1_field]){
+	if ($options['garuafw_template_1_slider_1_field']){
 
 		$sliderClass='slider-fullwidth-container';
 	}else{

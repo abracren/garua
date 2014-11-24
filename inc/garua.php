@@ -62,6 +62,7 @@ function garua_load_scripts() {
 		wp_localize_script('mxd-ajax', 'mxd_vars', array(
 				'mxd_nonce' => wp_create_nonce('mxd-nonce')
 			));
+		
 
 	}
 add_action( 'addJsAjax', 'garua_load_scripts' );
@@ -70,7 +71,9 @@ function mxd_get_ajax(){
 	if( !isset( $_POST['mxd_nonce'] ) || !wp_verify_nonce($_POST['mxd_nonce'], 'mxd-nonce') )
 		die('Permissions check failed');	
 	
-	echo 'test22';
+
+	echo $_POST['bla'];
+	echo $_POST['ble'];
 	die();
 }
 //add_action('wp_ajax_mxd_get_results',  array($this,'mxd_get_ajax'));
@@ -149,4 +152,7 @@ function add_admin_scripts( $hook ) {
     }
 }
 add_action( 'admin_enqueue_scripts', 'add_admin_scripts', 10, 1 );
+
+
+
 
